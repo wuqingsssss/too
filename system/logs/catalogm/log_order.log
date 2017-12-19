@@ -1,0 +1,372 @@
+_id:20160101123330.0.60215100.1.catalogm/account/coupon.ModelAccountCoupon.addCouponToCustomer:364..,timestamp:2016-01-01 12:33:30.15297,logger:order,pid:1278,level:INFO,client:127.0.0.1:51589 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/account/coupon::ModelAccountCoupon.addCouponToCustomer:364,message:addCouponToCustomerb:1;
+_id:20160101123330.0.60421900.2.catalogm/account/coupon.ModelAccountCoupon.addCouponToCustomer:367..,timestamp:2016-01-01 12:33:30.15297,logger:order,pid:1278,level:INFO,client:127.0.0.1:51589 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/account/coupon::ModelAccountCoupon.addCouponToCustomer:367,message:addCouponToCustomeroDJSbt2TJSW2aTTT7hS6DCVQhFxQ
+_id:20160101123330.0.60709600.3.catalogm/account/coupon.ModelAccountCoupon.addCouponToCustomer:369..,timestamp:2016-01-01 12:33:30.15297,logger:order,pid:1278,level:INFO,client:127.0.0.1:51589 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/account/coupon::ModelAccountCoupon.addCouponToCustomer:369,message:Array
+(
+    [coupon_id] => 66358
+    [name] => 10元代金券
+    [code] => 1512301345
+    [type] => F
+    [discount] => 10.0000
+    [logged] => 1
+    [shipping] => 0
+    [total] => 10.0000
+    [date_start] => 2015-12-30
+    [date_end] => 2016-01-02
+    [uses_total] => 30
+    [uses_customer] => 1
+    [status] => 1
+    [date_added] => 2015-12-30 13:55:20
+    [creator_id] => 15
+    [owner_id] => 15
+    [duration] => 3
+    [usage] => 
+    [order_id] => 
+    [free_get] => 1
+    [share_title] => 
+    [share_desc] => 
+    [share_image] => 
+    [share_link] => 
+    [share_btn] => 
+    [share_image1] => 
+    [share_image2] => 
+    [share_bg] => 
+    [share_image3] => 
+    [mutual_prom] => 0
+)
+
+_id:20160101123330.0.60813300.4.catalogm/account/coupon.ModelAccountCoupon.addCouponToCustomer:438..,timestamp:2016-01-01 12:33:30.15297,logger:order,pid:1278,level:INFO,client:127.0.0.1:51589 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/account/coupon::ModelAccountCoupon.addCouponToCustomer:438,message:Array
+(
+    [first] => Array
+        (
+            [value] => 您获得一张10元代金券优惠券，请在个人中心内查看。付款时请点击“使用优惠券”直接使用！
+            [color] => #0AA39A
+        )
+
+    [keyword1] => Array
+        (
+            [value] => 登录青年菜君查询
+            [color] => #0AA39A
+        )
+
+    [keyword2] => Array
+        (
+            [value] => 青年菜君
+            [color] => #0AA39A
+        )
+
+    [keyword3] => Array
+        (
+            [value] => 2016-01-03
+            [color] => #0AA39A
+        )
+
+    [keyword4] => Array
+        (
+            [value] => 
+            [color] => #0AA39A
+        )
+
+    [remark] => Array
+        (
+            [value] => 你每日忙碌，我牵肠挂肚【点击查看优惠券】
+            [color] => #0AA39A
+        )
+
+)
+
+_id:20160224152753.0.14040100.1.catalogm/checkout/checkout.ControllerCheckoutCheckout.confirm:876..,timestamp:2016-02-24 15:27:53.15297,logger:order,pid:562,level:INFO,client:127.0.0.1:52717 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/checkout/checkout::ControllerCheckoutCheckout.confirm:876,message:Array
+(
+    [0] => Array
+        (
+            [product_id] => 441
+            [href] => http://qncjv3/index.php?route=product/product&amp;product_id=441
+            [name] => 【精装】七味蔬彩海鲜饺（21个）
+            [model] => C373
+            [promotion] => Array
+                (
+                )
+
+            [additional] => 2016-02-25 20:00
+            [option] => Array
+                (
+                )
+
+            [download] => Array
+                (
+                )
+
+            [quantity] => 1
+            [subtract] => 1
+            [price] => 38.8000
+            [total] => 38.8
+            [tax] => 0
+        )
+
+)
+
+_id:20160224152802.0.32606500.1.catalogm/checkout/checkout/paysubmit.ModelCheckoutOrder.updateOrderStatus:845.16022400503.15810817660,timestamp:2016-02-24 15:28:02.15297,logger:order,pid:236,level:INFO,client:127.0.0.1:52728 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/checkout/checkout/paysubmit::ModelCheckoutOrder.updateOrderStatus:845,message:model->order->updateOrderStatus::16022400503;order_status_id:16;partner_code:
+_id:20160224152802.0.33902300.2.catalogm/checkout/checkout/paysubmit.ModelCheckoutOrder.create:431.16022400503.15810817660,timestamp:2016-02-24 15:28:02.15297,logger:order,pid:236,level:INFO,client:127.0.0.1:52728 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/checkout/checkout/paysubmit::ModelCheckoutOrder.create:431,message:order->model->create:16022400503::serialize(data):a:62:{s:6:"totals";a:3:{i:0;a:5:{s:4:"code";s:9:"sub_total";s:5:"title";s:15:"商品总金额";s:4:"text";s:8:"￥38.80";s:5:"value";d:38.799999999999997;s:10:"sort_order";s:1:"1";}i:1;a:5:{s:4:"code";s:15:"shipping_charge";s:5:"title";s:6:"运费";s:4:"text";s:7:"￥0.00";s:5:"value";i:0;s:10:"sort_order";s:1:"9";}i:2;a:5:{s:4:"code";s:5:"total";s:5:"title";s:12:"应付总额";s:4:"text";s:8:"￥38.80";s:5:"value";d:38.799999999999997;s:10:"sort_order";s:2:"10";}}s:5:"total";d:38.799999999999997;s:8:"payments";a:1:{i:0;a:2:{s:4:"code";s:7:"balance";s:5:"value";d:38.799999999999997;}}s:14:"payment_method";s:12:"储值支付";s:12:"payment_code";s:7:"balance";s:14:"invoice_prefix";s:8:"GOOD/001";s:8:"store_id";i:0;s:10:"store_name";s:12:"青年菜君";s:9:"store_url";s:14:"http://qncjv3/";s:11:"customer_id";s:5:"15297";s:17:"customer_group_id";s:1:"8";s:9:"firstname";s:11:"15810817660";s:8:"lastname";s:0:"";s:5:"email";s:0:"";s:9:"telephone";s:11:"15810817660";s:3:"fax";s:0:"";s:19:"shipping_address_id";s:5:"94980";s:13:"shipping_code";s:10:"meishisong";s:13:"shipping_data";s:6:"亦庄";s:3:"poi";s:20:"116.495644 39.797398";s:13:"shipping_time";s:16:"2016-02-25 20:00";s:18:"shipping_firstname";s:6:"李涛";s:17:"shipping_lastname";s:0:"";s:15:"shipping_mobile";s:11:"15810817660";s:14:"shipping_phone";s:0:"";s:16:"shipping_company";s:0:"";s:18:"shipping_address_1";s:46:"中国华冶北京公司天宝园二里甲1号";s:18:"shipping_address_2";s:0:"";s:13:"shipping_city";s:0:"";s:17:"shipping_postcode";s:0:"";s:13:"shipping_zone";N;s:16:"shipping_zone_id";s:1:"0";s:16:"shipping_country";s:6:"中国";s:19:"shipping_country_id";s:2:"44";s:23:"shipping_address_format";s:139:"地址:{zone}{city}{address_1}{address_2} 邮编:{postcode} 手机:{mobile} 电话:{phone}  
+收货人: {firstname} {lastname}
+
+
+
+
+
+";s:17:"payment_firstname";s:0:"";s:16:"payment_lastname";s:0:"";s:15:"payment_company";s:0:"";s:17:"payment_address_1";s:0:"";s:17:"payment_address_2";s:0:"";s:12:"payment_city";s:0:"";s:16:"payment_postcode";s:0:"";s:12:"payment_zone";s:0:"";s:15:"payment_zone_id";s:0:"";s:15:"payment_country";s:0:"";s:18:"payment_country_id";s:0:"";s:22:"payment_address_format";s:0:"";s:8:"products";a:1:{i:0;a:18:{s:10:"product_id";s:3:"441";s:4:"href";s:64:"http://qncjv3/index.php?route=product/product&amp;product_id=441";s:4:"name";s:44:"【精装】七味蔬彩海鲜饺（21个）";s:5:"model";s:4:"C373";s:9:"prod_type";s:1:"0";s:8:"shipping";s:1:"1";s:9:"promotion";a:0:{}s:10:"additional";s:16:"2016-02-25 20:00";s:6:"option";a:0:{}s:8:"download";a:0:{}s:8:"quantity";i:1;s:8:"subtract";s:1:"1";s:5:"price";s:7:"38.8000";s:5:"total";d:38.799999999999997;s:9:"rule_code";N;s:7:"combine";s:1:"0";s:12:"packing_type";s:1:"0";s:3:"tax";i:0;}}s:7:"comment";s:0:"";s:6:"reward";i:0;s:12:"affiliate_id";i:0;s:10:"commission";i:0;s:11:"language_id";s:1:"1";s:11:"currency_id";s:1:"1";s:13:"currency_code";s:3:"CNY";s:14:"currency_value";s:10:"1.00000000";s:2:"ip";s:9:"127.0.0.1";s:11:"source_from";i:3;s:10:"user_agent";s:149:"Safari[Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16]";s:13:"min_pre_times";i:86400;s:12:"partner_code";N;s:17:"shipping_required";i:1;}
+_id:20160224152803.0.73361800.3.catalogm/checkout/checkout/paysubmit.ModelCheckoutOrder.confirm:1118.16022400503.15810817660,timestamp:2016-02-24 15:28:03.15297,logger:order,pid:236,level:INFO,client:127.0.0.1:52728 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/checkout/checkout/paysubmit::ModelCheckoutOrder.confirm:1118,message:confirm：16022400503:$order_status_id:2
+_id:20160224152805.0.03140400.4.catalogm/checkout/checkout/paysubmit.ModelCheckoutOrder.sendWeixinMsgShipping:602.16022400503.15810817660,timestamp:2016-02-24 15:28:05.15297,logger:order,pid:236,level:INFO,client:127.0.0.1:52728 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/checkout/checkout/paysubmit::ModelCheckoutOrder.sendWeixinMsgShipping:602,message:oDJSbt2TJSW2aTTT7hS6DCVQhFxQ:qZT5nxRG97_TVOOwXzqaltgHmYBpx6yiSM-sMmvBtjU:http://www.qingniancaijun.com.cn/index.php?route=common/homea:2:{s:4:"name";a:2:{s:5:"value";s:48:"
+精装七味蔬彩海鲜饺21个  数量1份
+";s:5:"color";s:7:"#FF0000";}s:6:"remark";a:2:{s:5:"value";s:149:"你对菜小君的认领已成功，单号：16022400503。02月25日 下午19:00~20:00 之间，在家等我吧，我是你身边的帮厨小伙伴 ";s:5:"color";s:7:"#898989";}}
+_id:20160224153330.0.77023700.1.catalogm/checkout/checkout.ControllerCheckoutCheckout.confirm:870..,timestamp:2016-02-24 15:33:30.15297,logger:order,pid:565,level:INFO,client:127.0.0.1:52766 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/checkout/checkout::ControllerCheckoutCheckout.confirm:870,message:Array
+(
+    [0] => Array
+        (
+            [product_id] => 440
+            [href] => http://qncjv3/index.php?route=product/product&amp;product_id=440
+            [name] => 【简装】七味蔬彩海鲜饺（18个）
+            [model] => C372
+            [promotion] => Array
+                (
+                )
+
+            [additional] => 2016-02-25 18:00
+            [option] => Array
+                (
+                )
+
+            [download] => Array
+                (
+                )
+
+            [quantity] => 1
+            [subtract] => 1
+            [price] => 29.9000
+            [total] => 29.9
+            [tax] => 0
+        )
+
+)
+
+_id:20160224153341.0.60245200.1.catalogm/checkout/checkout.ControllerCheckoutCheckout.confirm:870..,timestamp:2016-02-24 15:33:41.15297,logger:order,pid:565,level:INFO,client:127.0.0.1:52766 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/checkout/checkout::ControllerCheckoutCheckout.confirm:870,message:Array
+(
+    [0] => Array
+        (
+            [product_id] => 440
+            [href] => http://qncjv3/index.php?route=product/product&amp;product_id=440
+            [name] => 【简装】七味蔬彩海鲜饺（18个）
+            [model] => C372
+            [promotion] => Array
+                (
+                )
+
+            [additional] => 2016-02-25 18:00
+            [option] => Array
+                (
+                )
+
+            [download] => Array
+                (
+                )
+
+            [quantity] => 1
+            [subtract] => 1
+            [price] => 29.9000
+            [total] => 29.9
+            [tax] => 0
+        )
+
+)
+
+_id:20160224153347.0.16231400.1.catalogm/checkout/checkout/paysubmit.ModelCheckoutOrder.updateOrderStatus:845.16022400504.15810817660,timestamp:2016-02-24 15:33:47.15297,logger:order,pid:565,level:INFO,client:127.0.0.1:52766 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/checkout/checkout/paysubmit::ModelCheckoutOrder.updateOrderStatus:845,message:model->order->updateOrderStatus::16022400504;order_status_id:16;partner_code:
+_id:20160224153347.0.17130700.2.catalogm/checkout/checkout/paysubmit.ModelCheckoutOrder.create:431.16022400504.15810817660,timestamp:2016-02-24 15:33:47.15297,logger:order,pid:565,level:INFO,client:127.0.0.1:52766 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/checkout/checkout/paysubmit::ModelCheckoutOrder.create:431,message:order->model->create:16022400504::serialize(data):a:62:{s:6:"totals";a:3:{i:0;a:5:{s:4:"code";s:9:"sub_total";s:5:"title";s:15:"商品总金额";s:4:"text";s:8:"￥29.90";s:5:"value";d:29.899999999999999;s:10:"sort_order";s:1:"1";}i:1;a:5:{s:4:"code";s:15:"shipping_charge";s:5:"title";s:6:"运费";s:4:"text";s:7:"￥0.00";s:5:"value";i:0;s:10:"sort_order";s:1:"9";}i:2;a:5:{s:4:"code";s:5:"total";s:5:"title";s:12:"应付总额";s:4:"text";s:8:"￥29.90";s:5:"value";d:29.899999999999999;s:10:"sort_order";s:2:"10";}}s:5:"total";d:29.899999999999999;s:8:"payments";a:1:{i:0;a:2:{s:4:"code";s:7:"balance";s:5:"value";d:29.899999999999999;}}s:14:"payment_method";s:12:"储值支付";s:12:"payment_code";s:7:"balance";s:14:"invoice_prefix";s:8:"GOOD/001";s:8:"store_id";i:0;s:10:"store_name";s:12:"青年菜君";s:9:"store_url";s:14:"http://qncjv3/";s:11:"customer_id";s:5:"15297";s:17:"customer_group_id";s:1:"8";s:9:"firstname";s:11:"15810817660";s:8:"lastname";s:0:"";s:5:"email";s:0:"";s:9:"telephone";s:11:"15810817660";s:3:"fax";s:0:"";s:19:"shipping_address_id";s:5:"94980";s:13:"shipping_code";s:10:"meishisong";s:13:"shipping_data";s:6:"亦庄";s:3:"poi";s:1:" ";s:13:"shipping_time";s:16:"2016-02-25 18:00";s:18:"shipping_firstname";s:6:"李涛";s:17:"shipping_lastname";s:0:"";s:15:"shipping_mobile";s:11:"15810817660";s:14:"shipping_phone";s:0:"";s:16:"shipping_company";s:0:"";s:18:"shipping_address_1";s:46:"中国华冶北京公司天宝园二里甲1号";s:18:"shipping_address_2";s:0:"";s:13:"shipping_city";s:0:"";s:17:"shipping_postcode";s:0:"";s:13:"shipping_zone";N;s:16:"shipping_zone_id";s:1:"0";s:16:"shipping_country";s:6:"中国";s:19:"shipping_country_id";s:2:"44";s:23:"shipping_address_format";s:139:"地址:{zone}{city}{address_1}{address_2} 邮编:{postcode} 手机:{mobile} 电话:{phone}  
+收货人: {firstname} {lastname}
+
+
+
+
+
+";s:17:"payment_firstname";s:0:"";s:16:"payment_lastname";s:0:"";s:15:"payment_company";s:0:"";s:17:"payment_address_1";s:0:"";s:17:"payment_address_2";s:0:"";s:12:"payment_city";s:0:"";s:16:"payment_postcode";s:0:"";s:12:"payment_zone";s:0:"";s:15:"payment_zone_id";s:0:"";s:15:"payment_country";s:0:"";s:18:"payment_country_id";s:0:"";s:22:"payment_address_format";s:0:"";s:8:"products";a:1:{i:0;a:18:{s:10:"product_id";s:3:"440";s:4:"href";s:64:"http://qncjv3/index.php?route=product/product&amp;product_id=440";s:4:"name";s:44:"【简装】七味蔬彩海鲜饺（18个）";s:5:"model";s:4:"C372";s:9:"prod_type";s:1:"0";s:8:"shipping";s:1:"1";s:9:"promotion";a:0:{}s:10:"additional";s:16:"2016-02-25 18:00";s:6:"option";a:0:{}s:8:"download";a:0:{}s:8:"quantity";i:1;s:8:"subtract";s:1:"1";s:5:"price";s:7:"29.9000";s:5:"total";d:29.899999999999999;s:9:"rule_code";N;s:7:"combine";s:1:"0";s:12:"packing_type";s:1:"0";s:3:"tax";i:0;}}s:7:"comment";s:0:"";s:6:"reward";i:0;s:12:"affiliate_id";i:0;s:10:"commission";i:0;s:11:"language_id";s:1:"1";s:11:"currency_id";s:1:"1";s:13:"currency_code";s:3:"CNY";s:14:"currency_value";s:10:"1.00000000";s:2:"ip";s:9:"127.0.0.1";s:11:"source_from";i:3;s:10:"user_agent";s:149:"Safari[Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16]";s:13:"min_pre_times";i:86400;s:12:"partner_code";N;s:17:"shipping_required";i:1;}
+_id:20160224153348.0.01765400.3.catalogm/checkout/checkout/paysubmit.ModelCheckoutOrder.confirm:1118.16022400504.15810817660,timestamp:2016-02-24 15:33:48.15297,logger:order,pid:565,level:INFO,client:127.0.0.1:52766 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/checkout/checkout/paysubmit::ModelCheckoutOrder.confirm:1118,message:confirm：16022400504:$order_status_id:2
+_id:20160224153348.0.51154100.4.catalogm/checkout/checkout/paysubmit.ModelCheckoutOrder.sendWeixinMsgShipping:602.16022400504.15810817660,timestamp:2016-02-24 15:33:48.15297,logger:order,pid:565,level:INFO,client:127.0.0.1:52766 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/checkout/checkout/paysubmit::ModelCheckoutOrder.sendWeixinMsgShipping:602,message:oDJSbt2TJSW2aTTT7hS6DCVQhFxQ:qZT5nxRG97_TVOOwXzqaltgHmYBpx6yiSM-sMmvBtjU:http://www.qingniancaijun.com.cn/index.php?route=common/homea:2:{s:4:"name";a:2:{s:5:"value";s:48:"
+简装七味蔬彩海鲜饺18个  数量1份
+";s:5:"color";s:7:"#FF0000";}s:6:"remark";a:2:{s:5:"value";s:149:"你对菜小君的认领已成功，单号：16022400504。02月25日 下午17:00~18:00 之间，在家等我吧，我是你身边的帮厨小伙伴 ";s:5:"color";s:7:"#898989";}}
+_id:20160224154614.0.46734600.1.catalogm/checkout/checkout.ControllerCheckoutCheckout.confirm:870..,timestamp:2016-02-24 15:46:14.15297,logger:order,pid:562,level:INFO,client:127.0.0.1:53215 Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X; en-us) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/checkout/checkout::ControllerCheckoutCheckout.confirm:870,message:Array
+(
+    [0] => Array
+        (
+            [product_id] => 495
+            [href] => http://qncjv3/index.php?route=product/product&amp;product_id=495
+            [name] => 滋补营养餐
+            [model] => C423
+            [promotion] => Array
+                (
+                )
+
+            [additional] => 2016-02-25 20:00
+            [option] => Array
+                (
+                )
+
+            [download] => Array
+                (
+                )
+
+            [quantity] => 1
+            [subtract] => 0
+            [price] => 71.9900
+            [total] => 71.99
+            [tax] => 0
+        )
+
+)
+
+_id:20161228112548.0.81546500.1.catalogm/checkout/checkout.ControllerCheckoutCheckout.confirm:899..,timestamp:2016-12-28 11:25:48.15297,logger:order,pid:3404,level:INFO,client:127.0.0.1:50158 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/checkout/checkout::ControllerCheckoutCheckout.confirm:899,message:Array
+(
+    [0] => Array
+        (
+            [product_id] => 495
+            [href] => http://qncjv3/index.php?route=product/product&amp;product_id=495
+            [name] => 滋补营养餐
+            [model] => C423
+            [promotion] => Array
+                (
+                )
+
+            [additional] => 2016-12-29 18:00
+            [option] => Array
+                (
+                )
+
+            [download] => Array
+                (
+                )
+
+            [quantity] => 1
+            [subtract] => 0
+            [price] => 71.9900
+            [total] => 71.99
+            [tax] => 0
+        )
+
+)
+
+_id:20161228112549.0.09137900.1.catalogm/checkout/checkout.ControllerCheckoutCheckout.confirm:899..,timestamp:2016-12-28 11:25:49.15297,logger:order,pid:9348,level:INFO,client:127.0.0.1:50161 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/checkout/checkout::ControllerCheckoutCheckout.confirm:899,message:Array
+(
+    [0] => Array
+        (
+            [product_id] => 495
+            [href] => http://qncjv3/index.php?route=product/product&amp;product_id=495
+            [name] => 滋补营养餐
+            [model] => C423
+            [promotion] => Array
+                (
+                )
+
+            [additional] => 2016-12-29 18:00
+            [option] => Array
+                (
+                )
+
+            [download] => Array
+                (
+                )
+
+            [quantity] => 1
+            [subtract] => 0
+            [price] => 71.9900
+            [total] => 71.99
+            [tax] => 0
+        )
+
+)
+
+_id:20161228112805.0.39083500.1.catalogm/checkout/checkout.ControllerCheckoutCheckout.confirm:899..,timestamp:2016-12-28 11:28:05.15297,logger:order,pid:3402,level:INFO,client:127.0.0.1:50173 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/checkout/checkout::ControllerCheckoutCheckout.confirm:899,message:Array
+(
+    [0] => Array
+        (
+            [product_id] => 495
+            [href] => http://qncjv3/index.php?route=product/product&amp;product_id=495
+            [name] => 滋补营养餐
+            [model] => C423
+            [promotion] => Array
+                (
+                )
+
+            [additional] => 2016-12-29 18:00
+            [option] => Array
+                (
+                )
+
+            [download] => Array
+                (
+                )
+
+            [quantity] => 1
+            [subtract] => 0
+            [price] => 71.9900
+            [total] => 71.99
+            [tax] => 0
+        )
+
+)
+
+_id:20161228114259.0.78323900.1.catalogm/checkout/checkout.ControllerCheckoutCheckout.confirm:899..,timestamp:2016-12-28 11:42:59.15297,logger:order,pid:3404,level:INFO,client:127.0.0.1:50435 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/checkout/checkout::ControllerCheckoutCheckout.confirm:899,message:Array
+(
+    [0] => Array
+        (
+            [product_id] => 495
+            [href] => http://qncjv3/index.php?route=product/product&amp;product_id=495
+            [name] => 滋补营养餐
+            [model] => C423
+            [promotion] => Array
+                (
+                )
+
+            [additional] => 2016-12-29 18:00
+            [option] => Array
+                (
+                )
+
+            [download] => Array
+                (
+                )
+
+            [quantity] => 1
+            [subtract] => 0
+            [price] => 71.9900
+            [total] => 71.99
+            [tax] => 0
+        )
+
+)
+
+_id:20170120214432.0.16571600.1.catalogm/checkout/checkout.ControllerCheckoutCheckout.confirm:899..,timestamp:2017-01-20 21:44:32.15297,logger:order,pid:80962,level:INFO,client:127.0.0.1:49949 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:,method:catalogm/checkout/checkout::ControllerCheckoutCheckout.confirm:899,message:Array
+(
+    [0] => Array
+        (
+            [product_id] => 495
+            [href] => http://qncjv3/index.php?route=product/product&amp;product_id=495
+            [name] => 滋补营养餐
+            [model] => C423
+            [promotion] => Array
+                (
+                )
+
+            [additional] => 2017-01-21 18:00
+            [option] => Array
+                (
+                )
+
+            [download] => Array
+                (
+                )
+
+            [quantity] => 1
+            [subtract] => 0
+            [price] => 71.9900
+            [total] => 71.99
+            [tax] => 0
+        )
+
+)
+

@@ -1,0 +1,1702 @@
+_id:20160809230514.0.03453300.1.admin/common/login.ControllerCommonLogin.validate:123..,timestamp:2016-08-09 23:05:14.,logger:admin,pid:19424,level:INFO,client:127.0.0.1:59505 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/login::ControllerCommonLogin.validate:123,message:User Object
+(
+    [user_id:User:private] => 10
+    [username:User:private] => litao
+    [permission:User:private] => Array
+        (
+            [super_admin] => 1
+        )
+
+    [reqcontroller:User:private] => common
+    [user_group_id:User:private] => 1
+    [is_admin:User:private] => 
+    [super_admin:User:private] => 1
+    [db] => DB Object
+        (
+            [driver:DB:private] => MySQLii Object
+                (
+                    [affected_rows] => 1
+                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: 15d5c781cfcad91193dceae1d2cdd127674ddb3e $
+                    [client_version] => 50011
+                    [connect_errno] => 0
+                    [connect_error] => 
+                    [errno] => 0
+                    [error] => 
+                    [error_list] => Array
+                        (
+                        )
+
+                    [field_count] => 11
+                    [host_info] => 127.0.0.1 via TCP/IP
+                    [info] => 
+                    [insert_id] => 0
+                    [server_info] => 5.5.36
+                    [server_version] => 50536
+                    [stat] => Uptime: 390918  Threads: 5  Questions: 10299  Slow queries: 0  Opens: 628  Flush tables: 2  Open tables: 115  Queries per second avg: 0.026
+                    [sqlstate] => 00000
+                    [protocol_version] => 10
+                    [thread_id] => 1096
+                    [warning_count] => 0
+                )
+
+            [drivername:DB:private] => mysqlii
+            [drivername2:DB:private] => 
+            [driver2:DB:private] => 
+        )
+
+    [request] => Request Object
+        (
+            [get] => Array
+                (
+                    [route] => common/login
+                )
+
+            [post] => Array
+                (
+                    [username] => litao
+                    [password] => 854187817
+                    [redirect] => http://qncjv3/admin/index.php?route=common/login
+                )
+
+            [cookie] => Array
+                (
+                    [Hm_lvt_61f1331aa9214144042cf468daaf9caf] => 1456299974
+                    [PHPSESSID] => 05525c0c46c74890dad877ddc35e69ac
+                )
+
+            [files] => Array
+                (
+                )
+
+            [server] => Array
+                (
+                    [HTTP_HOST] => qncjv3
+                    [HTTP_CONNECTION] => keep-alive
+                    [CONTENT_LENGTH] => 391
+                    [HTTP_CACHE_CONTROL] => max-age=0
+                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [HTTP_ORIGIN] => http://qncjv3
+                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+                    [CONTENT_TYPE] => multipart/form-data; boundary=----WebKitFormBoundaryYtDnXLMjwLBRjKyW
+                    [HTTP_REFERER] => http://qncjv3/admin/index.php?route=common/login
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+                    [HTTP_ACCEPT_LANGUAGE] => zh-CN,zh;q=0.8,en;q=0.6
+                    [HTTP_COOKIE] => Hm_lvt_61f1331aa9214144042cf468daaf9caf=1456299974; PHPSESSID=05525c0c46c74890dad877ddc35e69ac
+                    [PATH] => /usr/bin:/bin:/usr/sbin:/sbin
+                    [SERVER_SIGNATURE] => 
+                    [SERVER_SOFTWARE] => Apache/2.4.16 (Unix) PHP/5.5.30
+                    [SERVER_NAME] => qncjv3
+                    [SERVER_ADDR] => 127.0.0.1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => 127.0.0.1
+                    [DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [SERVER_ADMIN] => you@example.com
+        
+_id:20160809230514.0.13568700.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2016-08-09 23:05:14.,logger:admin,pid:19424,level:INFO,client:127.0.0.1:59505 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20160809230514.0.13907500.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2016-08-09 23:05:14.,logger:admin,pid:19424,level:INFO,client:127.0.0.1:59505 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20160809230514.0.14837300.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2016-08-09 23:05:14.,logger:admin,pid:19424,level:INFO,client:127.0.0.1:59505 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20160809230514.0.17678900.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2016-08-09 23:05:14.,logger:admin,pid:19424,level:INFO,client:127.0.0.1:59505 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20160809230514.0.18161100.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2016-08-09 23:05:14.,logger:admin,pid:19424,level:INFO,client:127.0.0.1:59505 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20160809230514.0.18189800.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2016-08-09 23:05:14.,logger:admin,pid:19424,level:INFO,client:127.0.0.1:59505 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20160809230515.0.37501200.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2016-08-09 23:05:15.,logger:admin,pid:19424,level:INFO,client:127.0.0.1:59505 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20160809230515.0.81295600.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2016-08-09 23:05:15.,logger:admin,pid:19424,level:INFO,client:127.0.0.1:59505 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20160809230515.0.82219100.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2016-08-09 23:05:15.,logger:admin,pid:19424,level:INFO,client:127.0.0.1:59505 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20160809230515.0.82249200.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2016-08-09 23:05:15.,logger:admin,pid:19424,level:INFO,client:127.0.0.1:59505 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20160809230515.0.82272100.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2016-08-09 23:05:15.,logger:admin,pid:19424,level:INFO,client:127.0.0.1:59505 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20160809230515.0.82993100.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2016-08-09 23:05:15.,logger:admin,pid:19424,level:INFO,client:127.0.0.1:59505 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20160809230515.0.83045400.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2016-08-09 23:05:15.,logger:admin,pid:19424,level:INFO,client:127.0.0.1:59505 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20160809230515.0.83067400.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2016-08-09 23:05:15.,logger:admin,pid:19424,level:INFO,client:127.0.0.1:59505 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20161011104513.0.24430800.1.admin/common/login.ControllerCommonLogin.validate:123..,timestamp:2016-10-11 10:45:13.,logger:admin,pid:5079,level:INFO,client:127.0.0.1:51178 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/login::ControllerCommonLogin.validate:123,message:User Object
+(
+    [user_id:User:private] => 10
+    [username:User:private] => litao
+    [permission:User:private] => Array
+        (
+            [super_admin] => 1
+        )
+
+    [reqcontroller:User:private] => common
+    [user_group_id:User:private] => 1
+    [is_admin:User:private] => 
+    [super_admin:User:private] => 1
+    [db] => DB Object
+        (
+            [driver:DB:private] => MySQLii Object
+                (
+                    [affected_rows] => 1
+                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id$
+                    [client_version] => 50011
+                    [connect_errno] => 0
+                    [connect_error] => 
+                    [errno] => 0
+                    [error] => 
+                    [error_list] => Array
+                        (
+                        )
+
+                    [field_count] => 11
+                    [host_info] => 127.0.0.1 via TCP/IP
+                    [info] => 
+                    [insert_id] => 0
+                    [server_info] => 5.5.36
+                    [server_version] => 50536
+                    [stat] => Uptime: 86600  Threads: 1  Questions: 753  Slow queries: 0  Opens: 79  Flush tables: 1  Open tables: 70  Queries per second avg: 0.008
+                    [sqlstate] => 00000
+                    [protocol_version] => 10
+                    [thread_id] => 90
+                    [warning_count] => 0
+                )
+
+            [drivername:DB:private] => mysqlii
+            [drivername2:DB:private] => 
+            [driver2:DB:private] => 
+        )
+
+    [request] => Request Object
+        (
+            [get] => Array
+                (
+                    [route] => common/login
+                )
+
+            [post] => Array
+                (
+                    [username] => litao
+                    [password] => 854187817
+                )
+
+            [cookie] => Array
+                (
+                    [Hm_lvt_61f1331aa9214144042cf468daaf9caf] => 1473329205
+                    [PHPSESSID] => 029456817568753e4cb3ac56bdfb036f
+                    [language] => cn
+                    [currency] => CNY
+                    [resolution] => 1280
+                )
+
+            [files] => Array
+                (
+                )
+
+            [server] => Array
+                (
+                    [HTTP_HOST] => qncjv3
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0
+                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+                    [HTTP_ACCEPT_LANGUAGE] => zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+                    [HTTP_REFERER] => http://qncjv3/admin/
+                    [HTTP_COOKIE] => Hm_lvt_61f1331aa9214144042cf468daaf9caf=1473329205; PHPSESSID=029456817568753e4cb3ac56bdfb036f; language=cn; currency=CNY; resolution=1280
+                    [HTTP_CONNECTION] => keep-alive
+                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                    [CONTENT_TYPE] => multipart/form-data; boundary=---------------------------4581926022114187319881847171
+                    [CONTENT_LENGTH] => 299
+                    [PATH] => /usr/bin:/bin:/usr/sbin:/sbin
+                    [SERVER_SIGNATURE] => 
+                    [SERVER_SOFTWARE] => Apache/2.4.23 (Unix) PHP/5.6.24
+                    [SERVER_NAME] => qncjv3
+                    [SERVER_ADDR] => 127.0.0.1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => 127.0.0.1
+                    [DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [SERVER_ADMIN] => you@example.com
+                    [SCRIPT_FILENAME] => /Library/WebServer/qncj/webv3/admin/index.php
+                    [REMOTE_PORT] => 51178
+    
+_id:20161011104513.0.32596200.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2016-10-11 10:45:13.,logger:admin,pid:5079,level:INFO,client:127.0.0.1:51178 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20161011104513.0.32883800.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2016-10-11 10:45:13.,logger:admin,pid:5079,level:INFO,client:127.0.0.1:51178 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20161011104513.0.34143700.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2016-10-11 10:45:13.,logger:admin,pid:5079,level:INFO,client:127.0.0.1:51178 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20161011104513.0.36811200.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2016-10-11 10:45:13.,logger:admin,pid:5079,level:INFO,client:127.0.0.1:51178 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20161011104513.0.37294500.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2016-10-11 10:45:13.,logger:admin,pid:5079,level:INFO,client:127.0.0.1:51178 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20161011104513.0.37363700.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2016-10-11 10:45:13.,logger:admin,pid:5079,level:INFO,client:127.0.0.1:51178 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20161011104514.0.47507500.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2016-10-11 10:45:14.,logger:admin,pid:5079,level:INFO,client:127.0.0.1:51178 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20161011104514.0.88276200.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2016-10-11 10:45:14.,logger:admin,pid:5079,level:INFO,client:127.0.0.1:51178 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20161011104514.0.89168900.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2016-10-11 10:45:14.,logger:admin,pid:5079,level:INFO,client:127.0.0.1:51178 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20161011104514.0.89197900.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2016-10-11 10:45:14.,logger:admin,pid:5079,level:INFO,client:127.0.0.1:51178 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20161011104514.0.89217600.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2016-10-11 10:45:14.,logger:admin,pid:5079,level:INFO,client:127.0.0.1:51178 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20161011104514.0.89950700.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2016-10-11 10:45:14.,logger:admin,pid:5079,level:INFO,client:127.0.0.1:51178 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20161011104514.0.90044400.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2016-10-11 10:45:14.,logger:admin,pid:5079,level:INFO,client:127.0.0.1:51178 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20161011104514.0.90067600.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2016-10-11 10:45:14.,logger:admin,pid:5079,level:INFO,client:127.0.0.1:51178 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20161126203611.0.42892800.1.admin/common/login.ControllerCommonLogin.validate:123..,timestamp:2016-11-26 20:36:11.,logger:admin,pid:5301,level:INFO,client:127.0.0.1:58838 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/login::ControllerCommonLogin.validate:123,message:User Object
+(
+    [user_id:User:private] => 10
+    [username:User:private] => litao
+    [permission:User:private] => Array
+        (
+            [super_admin] => 1
+        )
+
+    [reqcontroller:User:private] => common
+    [user_group_id:User:private] => 1
+    [is_admin:User:private] => 
+    [super_admin:User:private] => 1
+    [db] => DB Object
+        (
+            [driver:DB:private] => MySQLii Object
+                (
+                    [affected_rows] => 1
+                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id$
+                    [client_version] => 50011
+                    [connect_errno] => 0
+                    [connect_error] => 
+                    [errno] => 0
+                    [error] => 
+                    [error_list] => Array
+                        (
+                        )
+
+                    [field_count] => 11
+                    [host_info] => 127.0.0.1 via TCP/IP
+                    [info] => 
+                    [insert_id] => 0
+                    [server_info] => 5.5.36
+                    [server_version] => 50536
+                    [stat] => Uptime: 190208  Threads: 6  Questions: 20997  Slow queries: 0  Opens: 161  Flush tables: 1  Open tables: 136  Queries per second avg: 0.110
+                    [sqlstate] => 00000
+                    [protocol_version] => 10
+                    [thread_id] => 576
+                    [warning_count] => 0
+                )
+
+            [drivername:DB:private] => mysqlii
+            [drivername2:DB:private] => 
+            [driver2:DB:private] => 
+        )
+
+    [request] => Request Object
+        (
+            [get] => Array
+                (
+                    [route] => common/login
+                )
+
+            [post] => Array
+                (
+                    [username] => litao
+                    [password] => 854187817
+                )
+
+            [cookie] => Array
+                (
+                    [Hm_lvt_61f1331aa9214144042cf468daaf9caf] => 1480163757
+                    [PHPSESSID] => b7be00d2c064e5bce76b9a8410119b37
+                    [language] => cn
+                    [currency] => CNY
+                    [resolution] => 1280
+                    [Hm_lpvt_61f1331aa9214144042cf468daaf9caf] => 1480163757
+                )
+
+            [files] => Array
+                (
+                )
+
+            [server] => Array
+                (
+                    [HTTP_HOST] => qncjv3
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0
+                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+                    [HTTP_ACCEPT_LANGUAGE] => zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+                    [HTTP_REFERER] => http://qncjv3/admin/
+                    [HTTP_COOKIE] => Hm_lvt_61f1331aa9214144042cf468daaf9caf=1480163757; PHPSESSID=b7be00d2c064e5bce76b9a8410119b37; language=cn; currency=CNY; resolution=1280; Hm_lpvt_61f1331aa9214144042cf468daaf9caf=1480163757
+                    [HTTP_CONNECTION] => keep-alive
+                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                    [CONTENT_TYPE] => multipart/form-data; boundary=---------------------------954224524243699072598988275
+                    [CONTENT_LENGTH] => 296
+                    [PATH] => /usr/bin:/bin:/usr/sbin:/sbin
+                    [SERVER_SIGNATURE] => 
+                    [SERVER_SOFTWARE] => Apache/2.4.23 (Unix) PHP/5.6.25
+                    [SERVER_NAME] => qncjv3
+                    [SERVER_ADDR] => 127.0.0.1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => 127.0.0.1
+                    [DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [SERVER_ADMIN] => you@example.com
+_id:20161126203611.0.49705600.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2016-11-26 20:36:11.,logger:admin,pid:5301,level:INFO,client:127.0.0.1:58838 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20161126203611.0.50022200.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2016-11-26 20:36:11.,logger:admin,pid:5301,level:INFO,client:127.0.0.1:58838 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20161126203611.0.50673000.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2016-11-26 20:36:11.,logger:admin,pid:5301,level:INFO,client:127.0.0.1:58838 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20161126203611.0.53670800.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2016-11-26 20:36:11.,logger:admin,pid:5301,level:INFO,client:127.0.0.1:58838 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20161126203611.0.54387000.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2016-11-26 20:36:11.,logger:admin,pid:5301,level:INFO,client:127.0.0.1:58838 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20161126203611.0.54412400.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2016-11-26 20:36:11.,logger:admin,pid:5301,level:INFO,client:127.0.0.1:58838 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20161126203613.0.33715400.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2016-11-26 20:36:13.,logger:admin,pid:5301,level:INFO,client:127.0.0.1:58838 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20161126203613.0.83907300.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2016-11-26 20:36:13.,logger:admin,pid:5301,level:INFO,client:127.0.0.1:58838 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20161126203613.0.84971400.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2016-11-26 20:36:13.,logger:admin,pid:5301,level:INFO,client:127.0.0.1:58838 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20161126203613.0.84993200.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2016-11-26 20:36:13.,logger:admin,pid:5301,level:INFO,client:127.0.0.1:58838 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20161126203613.0.85006200.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2016-11-26 20:36:13.,logger:admin,pid:5301,level:INFO,client:127.0.0.1:58838 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20161126203613.0.85648600.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2016-11-26 20:36:13.,logger:admin,pid:5301,level:INFO,client:127.0.0.1:58838 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20161126203613.0.85686200.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2016-11-26 20:36:13.,logger:admin,pid:5301,level:INFO,client:127.0.0.1:58838 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20161126203613.0.85699300.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2016-11-26 20:36:13.,logger:admin,pid:5301,level:INFO,client:127.0.0.1:58838 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20161126203824.0.71555300.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2016-11-26 20:38:24.,logger:admin,pid:5306,level:INFO,client:127.0.0.1:58896 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20161126203824.0.71928100.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2016-11-26 20:38:24.,logger:admin,pid:5306,level:INFO,client:127.0.0.1:58896 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20161126203824.0.72270300.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2016-11-26 20:38:24.,logger:admin,pid:5306,level:INFO,client:127.0.0.1:58896 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20161126203824.0.73376700.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2016-11-26 20:38:24.,logger:admin,pid:5306,level:INFO,client:127.0.0.1:58896 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20161126203824.0.74345900.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2016-11-26 20:38:24.,logger:admin,pid:5306,level:INFO,client:127.0.0.1:58896 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20161126203824.0.74409100.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2016-11-26 20:38:24.,logger:admin,pid:5306,level:INFO,client:127.0.0.1:58896 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20161126203825.0.47550500.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2016-11-26 20:38:25.,logger:admin,pid:5306,level:INFO,client:127.0.0.1:58896 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20161126203825.0.76505800.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2016-11-26 20:38:25.,logger:admin,pid:5306,level:INFO,client:127.0.0.1:58896 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20161126203825.0.77266100.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2016-11-26 20:38:25.,logger:admin,pid:5306,level:INFO,client:127.0.0.1:58896 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20161126203825.0.77313500.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2016-11-26 20:38:25.,logger:admin,pid:5306,level:INFO,client:127.0.0.1:58896 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20161126203825.0.77337800.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2016-11-26 20:38:25.,logger:admin,pid:5306,level:INFO,client:127.0.0.1:58896 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20161126203825.0.78050500.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2016-11-26 20:38:25.,logger:admin,pid:5306,level:INFO,client:127.0.0.1:58896 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20161126203825.0.78101800.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2016-11-26 20:38:25.,logger:admin,pid:5306,level:INFO,client:127.0.0.1:58896 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20161126203825.0.78121600.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2016-11-26 20:38:25.,logger:admin,pid:5306,level:INFO,client:127.0.0.1:58896 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20161214095200.0.87471100.1.admin/common/login.ControllerCommonLogin.validate:123..,timestamp:2016-12-14 09:52:00.,logger:admin,pid:19712,level:INFO,client:127.0.0.1:61797 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/login::ControllerCommonLogin.validate:123,message:User Object
+(
+    [user_id:User:private] => 10
+    [username:User:private] => litao
+    [permission:User:private] => Array
+        (
+            [super_admin] => 1
+        )
+
+    [reqcontroller:User:private] => common
+    [user_group_id:User:private] => 1
+    [is_admin:User:private] => 
+    [super_admin:User:private] => 1
+    [db] => DB Object
+        (
+            [driver:DB:private] => MySQLii Object
+                (
+                    [affected_rows] => 1
+                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id$
+                    [client_version] => 50011
+                    [connect_errno] => 0
+                    [connect_error] => 
+                    [errno] => 0
+                    [error] => 
+                    [error_list] => Array
+                        (
+                        )
+
+                    [field_count] => 11
+                    [host_info] => 127.0.0.1 via TCP/IP
+                    [info] => 
+                    [insert_id] => 0
+                    [server_info] => 5.5.36
+                    [server_version] => 50536
+                    [stat] => Uptime: 1706757  Threads: 3  Questions: 88628  Slow queries: 4  Opens: 763  Flush tables: 1  Open tables: 400  Queries per second avg: 0.051
+                    [sqlstate] => 00000
+                    [protocol_version] => 10
+                    [thread_id] => 5764
+                    [warning_count] => 0
+                )
+
+            [drivername:DB:private] => mysqlii
+            [drivername2:DB:private] => 
+            [driver2:DB:private] => 
+        )
+
+    [request] => Request Object
+        (
+            [get] => Array
+                (
+                    [route] => common/login
+                )
+
+            [post] => Array
+                (
+                    [username] => litao
+                    [password] => 854187817
+                )
+
+            [cookie] => Array
+                (
+                    [Hm_lvt_61f1331aa9214144042cf468daaf9caf] => 1480163757
+                    [PHPSESSID] => b7be00d2c064e5bce76b9a8410119b37
+                    [language] => cn
+                    [currency] => CNY
+                    [resolution] => 1280
+                    [Hm_lpvt_61f1331aa9214144042cf468daaf9caf] => 1480164097
+                )
+
+            [files] => Array
+                (
+                )
+
+            [server] => Array
+                (
+                    [HTTP_HOST] => qncjv3
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0
+                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+                    [HTTP_ACCEPT_LANGUAGE] => zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+                    [HTTP_REFERER] => http://qncjv3/admin/
+                    [HTTP_COOKIE] => Hm_lvt_61f1331aa9214144042cf468daaf9caf=1480163757; PHPSESSID=b7be00d2c064e5bce76b9a8410119b37; language=cn; currency=CNY; resolution=1280; Hm_lpvt_61f1331aa9214144042cf468daaf9caf=1480164097
+                    [HTTP_CONNECTION] => keep-alive
+                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                    [CONTENT_TYPE] => multipart/form-data; boundary=---------------------------190924877510435079511886671055
+                    [CONTENT_LENGTH] => 305
+                    [PATH] => /usr/bin:/bin:/usr/sbin:/sbin
+                    [SERVER_SIGNATURE] => 
+                    [SERVER_SOFTWARE] => Apache/2.4.23 (Unix) PHP/5.6.25
+                    [SERVER_NAME] => qncjv3
+                    [SERVER_ADDR] => 127.0.0.1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => 127.0.0.1
+                    [DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [SERVER_ADMIN] => you@exampl
+_id:20161214095201.0.01103500.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2016-12-14 09:52:01.,logger:admin,pid:19712,level:INFO,client:127.0.0.1:61797 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20161214095201.0.03915800.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2016-12-14 09:52:01.,logger:admin,pid:19712,level:INFO,client:127.0.0.1:61797 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20161214095201.0.09684500.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2016-12-14 09:52:01.,logger:admin,pid:19712,level:INFO,client:127.0.0.1:61797 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20161214095201.0.12737300.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2016-12-14 09:52:01.,logger:admin,pid:19712,level:INFO,client:127.0.0.1:61797 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20161214095201.0.19414100.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2016-12-14 09:52:01.,logger:admin,pid:19712,level:INFO,client:127.0.0.1:61797 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20161214095201.0.20060200.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2016-12-14 09:52:01.,logger:admin,pid:19712,level:INFO,client:127.0.0.1:61797 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20161214095207.0.15333400.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2016-12-14 09:52:07.,logger:admin,pid:19712,level:INFO,client:127.0.0.1:61797 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20161214095207.0.69050800.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2016-12-14 09:52:07.,logger:admin,pid:19712,level:INFO,client:127.0.0.1:61797 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20161214095207.0.71904300.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2016-12-14 09:52:07.,logger:admin,pid:19712,level:INFO,client:127.0.0.1:61797 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20161214095207.0.71937300.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2016-12-14 09:52:07.,logger:admin,pid:19712,level:INFO,client:127.0.0.1:61797 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20161214095207.0.71960100.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2016-12-14 09:52:07.,logger:admin,pid:19712,level:INFO,client:127.0.0.1:61797 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20161214095207.0.73188200.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2016-12-14 09:52:07.,logger:admin,pid:19712,level:INFO,client:127.0.0.1:61797 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20161214095207.0.73230100.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2016-12-14 09:52:07.,logger:admin,pid:19712,level:INFO,client:127.0.0.1:61797 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20161214095207.0.73243500.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2016-12-14 09:52:07.,logger:admin,pid:19712,level:INFO,client:127.0.0.1:61797 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20161214095223.0.75305600.1.admin/catalog/product.ServiceMeituanProduct.HMTProList:34..,timestamp:2016-12-14 09:52:23.,logger:admin,pid:30360,level:INFO,client:127.0.0.1:61802 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/catalog/product::ServiceMeituanProduct.HMTProList:34,message:http://182.92.190.78:8080/BPMCommon/services/mtws/food/lista:3:{s:5:"appid";s:32:"EB238a69209c7f0b952a6bba61166f4b";s:11:"sign_method";i:1;s:2:"sn";s:32:"444277df26bbc1dc02bc29dfc24fc637";}
+_id:20161214095253.0.87390100.2.admin/catalog/product.ServiceMeituanProduct.HMTProList:40..,timestamp:2016-12-14 09:52:53.,logger:admin,pid:30360,level:ERROR,client:127.0.0.1:61802 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/catalog/product::ServiceMeituanProduct.HMTProList:40,message:
+_id:20161214095306.0.87377600.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2016-12-14 09:53:06.,logger:admin,pid:30338,level:INFO,client:127.0.0.1:61815 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20161214095306.0.87643700.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2016-12-14 09:53:06.,logger:admin,pid:30338,level:INFO,client:127.0.0.1:61815 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20161214095306.0.87917700.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2016-12-14 09:53:06.,logger:admin,pid:30338,level:INFO,client:127.0.0.1:61815 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20161214095306.0.90057100.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2016-12-14 09:53:06.,logger:admin,pid:30338,level:INFO,client:127.0.0.1:61815 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20161214095306.0.90697300.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2016-12-14 09:53:06.,logger:admin,pid:30338,level:INFO,client:127.0.0.1:61815 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20161214095306.0.93293200.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2016-12-14 09:53:06.,logger:admin,pid:30338,level:INFO,client:127.0.0.1:61815 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20161214095309.0.41757000.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2016-12-14 09:53:09.,logger:admin,pid:30338,level:INFO,client:127.0.0.1:61815 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20161214095309.0.99263100.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2016-12-14 09:53:09.,logger:admin,pid:30338,level:INFO,client:127.0.0.1:61815 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20161214095310.0.03272800.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2016-12-14 09:53:10.,logger:admin,pid:30338,level:INFO,client:127.0.0.1:61815 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20161214095310.0.03313600.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2016-12-14 09:53:10.,logger:admin,pid:30338,level:INFO,client:127.0.0.1:61815 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20161214095310.0.03347800.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2016-12-14 09:53:10.,logger:admin,pid:30338,level:INFO,client:127.0.0.1:61815 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20161214095310.0.04453800.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2016-12-14 09:53:10.,logger:admin,pid:30338,level:INFO,client:127.0.0.1:61815 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20161214095310.0.04535400.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2016-12-14 09:53:10.,logger:admin,pid:30338,level:INFO,client:127.0.0.1:61815 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20161214095310.0.04603100.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2016-12-14 09:53:10.,logger:admin,pid:30338,level:INFO,client:127.0.0.1:61815 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20161214095314.0.44277700.1.admin/catalog/product.ServiceMeituanProduct.HMTProList:34..,timestamp:2016-12-14 09:53:14.,logger:admin,pid:30338,level:INFO,client:127.0.0.1:61815 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/catalog/product::ServiceMeituanProduct.HMTProList:34,message:http://182.92.190.78:8080/BPMCommon/services/mtws/food/lista:3:{s:5:"appid";s:32:"EB238a69209c7f0b952a6bba61166f4b";s:11:"sign_method";i:1;s:2:"sn";s:32:"444277df26bbc1dc02bc29dfc24fc637";}
+_id:20161214095344.0.52603300.2.admin/catalog/product.ServiceMeituanProduct.HMTProList:40..,timestamp:2016-12-14 09:53:44.,logger:admin,pid:30338,level:ERROR,client:127.0.0.1:61815 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/catalog/product::ServiceMeituanProduct.HMTProList:40,message:
+_id:20161214113603.0.89119700.1.admin/catalog/product.ServiceMeituanProduct.HMTProList:34..,timestamp:2016-12-14 11:36:03.,logger:admin,pid:21056,level:INFO,client:127.0.0.1:63829 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/catalog/product::ServiceMeituanProduct.HMTProList:34,message:http://182.92.190.78:8080/BPMCommon/services/mtws/food/lista:3:{s:5:"appid";s:32:"EB238a69209c7f0b952a6bba61166f4b";s:11:"sign_method";i:1;s:2:"sn";s:32:"444277df26bbc1dc02bc29dfc24fc637";}
+_id:20161214113633.0.98751900.2.admin/catalog/product.ServiceMeituanProduct.HMTProList:40..,timestamp:2016-12-14 11:36:33.,logger:admin,pid:21056,level:ERROR,client:127.0.0.1:63829 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/catalog/product::ServiceMeituanProduct.HMTProList:40,message:
+_id:20170317122609.0.91955500.1.admin/common/login.ControllerCommonLogin.validate:123..,timestamp:2017-03-17 12:26:09.15297,logger:admin,pid:48310,level:INFO,client:127.0.0.1:62361 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/login::ControllerCommonLogin.validate:123,message:User Object
+(
+    [user_id:User:private] => 10
+    [username:User:private] => litao
+    [permission:User:private] => Array
+        (
+            [super_admin] => 1
+        )
+
+    [reqcontroller:User:private] => common
+    [user_group_id:User:private] => 1
+    [is_admin:User:private] => 
+    [super_admin:User:private] => 1
+    [db] => DB Object
+        (
+            [driver:DB:private] => MySQLii Object
+                (
+                    [affected_rows] => 1
+                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id$
+                    [client_version] => 50011
+                    [connect_errno] => 0
+                    [connect_error] => 
+                    [errno] => 0
+                    [error] => 
+                    [error_list] => Array
+                        (
+                        )
+
+                    [field_count] => 11
+                    [host_info] => 127.0.0.1 via TCP/IP
+                    [info] => 
+                    [insert_id] => 0
+                    [server_info] => 5.5.36
+                    [server_version] => 50536
+                    [stat] => Uptime: 263361  Threads: 1  Questions: 12263  Slow queries: 2  Opens: 220  Flush tables: 1  Open tables: 211  Queries per second avg: 0.046
+                    [sqlstate] => 00000
+                    [protocol_version] => 10
+                    [thread_id] => 923
+                    [warning_count] => 0
+                )
+
+            [drivername:DB:private] => mysqlii
+            [drivername2:DB:private] => 
+            [driver2:DB:private] => 
+        )
+
+    [request] => Request Object
+        (
+            [get] => Array
+                (
+                    [route] => common/login
+                )
+
+            [post] => Array
+                (
+                    [username] => litao
+                    [password] => 854187817
+                )
+
+            [cookie] => Array
+                (
+                    [Hm_lvt_61f1331aa9214144042cf468daaf9caf] => 1489724715
+                    [PHPSESSID] => 13cd7222ac064eca8c300dd072010960
+                    [language] => cn
+                    [currency] => CNY
+                    [Hm_lpvt_61f1331aa9214144042cf468daaf9caf] => 1489724715
+                    [resolution] => 480
+                )
+
+            [files] => Array
+                (
+                )
+
+            [server] => Array
+                (
+                    [HTTP_HOST] => qncjv3
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16
+                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+                    [HTTP_ACCEPT_LANGUAGE] => zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+                    [HTTP_REFERER] => http://qncjv3/admin/
+                    [HTTP_COOKIE] => Hm_lvt_61f1331aa9214144042cf468daaf9caf=1489724715; PHPSESSID=13cd7222ac064eca8c300dd072010960; language=cn; currency=CNY; Hm_lpvt_61f1331aa9214144042cf468daaf9caf=1489724715; resolution=480
+                    [HTTP_CONNECTION] => keep-alive
+                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                    [CONTENT_TYPE] => multipart/form-data; boundary=---------------------------1485642006392831173948793733
+                    [CONTENT_LENGTH] => 299
+                    [PATH] => /usr/bin:/bin:/usr/sbin:/sbin
+                    [SERVER_SIGNATURE] => 
+                    [SERVER_SOFTWARE] => Apache/2.4.23 (Unix) PHP/5.6.28
+                    [SERVER_NAME] => qncjv3
+                    [SERVER_ADDR] => 127.0.0.1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => 127.0.0.1
+                    [DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => /Library/WebServer/qncj/w
+_id:20170317122610.0.07758500.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2017-03-17 12:26:10.15297,logger:admin,pid:48310,level:INFO,client:127.0.0.1:62361 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20170317122610.0.08845500.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2017-03-17 12:26:10.15297,logger:admin,pid:48310,level:INFO,client:127.0.0.1:62361 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20170317122610.0.09429300.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2017-03-17 12:26:10.15297,logger:admin,pid:48310,level:INFO,client:127.0.0.1:62361 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20170317122610.0.12573100.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2017-03-17 12:26:10.15297,logger:admin,pid:48310,level:INFO,client:127.0.0.1:62361 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20170317122610.0.12988400.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2017-03-17 12:26:10.15297,logger:admin,pid:48310,level:INFO,client:127.0.0.1:62361 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20170317122610.0.13072000.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2017-03-17 12:26:10.15297,logger:admin,pid:48310,level:INFO,client:127.0.0.1:62361 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20170317122611.0.60943800.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2017-03-17 12:26:11.15297,logger:admin,pid:48310,level:INFO,client:127.0.0.1:62361 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20170317122611.0.98958100.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2017-03-17 12:26:11.15297,logger:admin,pid:48310,level:INFO,client:127.0.0.1:62361 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20170317122611.0.99634700.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2017-03-17 12:26:11.15297,logger:admin,pid:48310,level:INFO,client:127.0.0.1:62361 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20170317122611.0.99655800.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2017-03-17 12:26:11.15297,logger:admin,pid:48310,level:INFO,client:127.0.0.1:62361 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20170317122611.0.99696900.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2017-03-17 12:26:11.15297,logger:admin,pid:48310,level:INFO,client:127.0.0.1:62361 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20170317122612.0.00475600.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2017-03-17 12:26:12.15297,logger:admin,pid:48310,level:INFO,client:127.0.0.1:62361 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20170317122612.0.00552200.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2017-03-17 12:26:12.15297,logger:admin,pid:48310,level:INFO,client:127.0.0.1:62361 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20170317122612.0.00578800.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2017-03-17 12:26:12.15297,logger:admin,pid:48310,level:INFO,client:127.0.0.1:62361 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20170317122658.0.82765500.1.admin/.ControllerCommonHome.index:7..,timestamp:2017-03-17 12:26:58.15297,logger:admin,pid:48304,level:INFO,client:127.0.0.1:62433 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/::ControllerCommonHome.index:7,message:p
+_id:20170317122658.0.83199000.2.admin/.ControllerCommonHome.index:121..,timestamp:2017-03-17 12:26:58.15297,logger:admin,pid:48304,level:INFO,client:127.0.0.1:62433 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/::ControllerCommonHome.index:121,message:p
+_id:20170317122658.0.83623700.3.admin/.ControllerCommonHome.index:139..,timestamp:2017-03-17 12:26:58.15297,logger:admin,pid:48304,level:INFO,client:127.0.0.1:62433 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/::ControllerCommonHome.index:139,message:p
+_id:20170317122658.0.84431400.4.admin/.ControllerCommonHome.index:141..,timestamp:2017-03-17 12:26:58.15297,logger:admin,pid:48304,level:INFO,client:127.0.0.1:62433 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/::ControllerCommonHome.index:141,message:p
+_id:20170317122658.0.85276500.5.admin/.ControllerCommonHome.index:177..,timestamp:2017-03-17 12:26:58.15297,logger:admin,pid:48304,level:INFO,client:127.0.0.1:62433 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/::ControllerCommonHome.index:177,message:p
+_id:20170317122658.0.85313900.6.admin/.ControllerCommonHome.index:200..,timestamp:2017-03-17 12:26:58.15297,logger:admin,pid:48304,level:INFO,client:127.0.0.1:62433 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/::ControllerCommonHome.index:200,message:p
+_id:20170317122659.0.81948000.7.admin/.ControllerCommonHome.index:203..,timestamp:2017-03-17 12:26:59.15297,logger:admin,pid:48304,level:INFO,client:127.0.0.1:62433 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/::ControllerCommonHome.index:203,message:p
+_id:20170317122700.0.18428000.8.admin/.ControllerCommonHome.index:207..,timestamp:2017-03-17 12:27:00.15297,logger:admin,pid:48304,level:INFO,client:127.0.0.1:62433 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/::ControllerCommonHome.index:207,message:p
+_id:20170317122700.0.19270100.9.admin/.ControllerCommonHome.index:212..,timestamp:2017-03-17 12:27:00.15297,logger:admin,pid:48304,level:INFO,client:127.0.0.1:62433 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/::ControllerCommonHome.index:212,message:p
+_id:20170317122700.0.19317000.10.admin/.ControllerCommonHome.index:219..,timestamp:2017-03-17 12:27:00.15297,logger:admin,pid:48304,level:INFO,client:127.0.0.1:62433 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/::ControllerCommonHome.index:219,message:p
+_id:20170317122700.0.19342200.11.admin/.ControllerCommonHome.index:251..,timestamp:2017-03-17 12:27:00.15297,logger:admin,pid:48304,level:INFO,client:127.0.0.1:62433 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/::ControllerCommonHome.index:251,message:p
+_id:20170317122700.0.20014100.12.admin/.ControllerCommonHome.index:257..,timestamp:2017-03-17 12:27:00.15297,logger:admin,pid:48304,level:INFO,client:127.0.0.1:62433 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/::ControllerCommonHome.index:257,message:p
+_id:20170317122700.0.20149000.13.admin/.ControllerCommonHome.index:390..,timestamp:2017-03-17 12:27:00.15297,logger:admin,pid:48304,level:INFO,client:127.0.0.1:62433 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/::ControllerCommonHome.index:390,message:p
+_id:20170317122700.0.20193800.14.admin/.ControllerCommonHome.index:394..,timestamp:2017-03-17 12:27:00.15297,logger:admin,pid:48304,level:INFO,client:127.0.0.1:62433 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/::ControllerCommonHome.index:394,message:p
+_id:20170331094141.0.03502200.1.admin/common/login.ControllerCommonLogin.validate:123..,timestamp:2017-03-31 09:41:41.,logger:admin,pid:5160,level:INFO,client:127.0.0.1:53124 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/login::ControllerCommonLogin.validate:123,message:User Object
+(
+    [user_id:User:private] => 10
+    [username:User:private] => litao
+    [permission:User:private] => Array
+        (
+            [super_admin] => 1
+        )
+
+    [reqcontroller:User:private] => common
+    [user_group_id:User:private] => 1
+    [is_admin:User:private] => 
+    [super_admin:User:private] => 1
+    [db] => DB Object
+        (
+            [driver:DB:private] => MySQLii Object
+                (
+                    [affected_rows] => 1
+                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id$
+                    [client_version] => 50011
+                    [connect_errno] => 0
+                    [connect_error] => 
+                    [errno] => 0
+                    [error] => 
+                    [error_list] => Array
+                        (
+                        )
+
+                    [field_count] => 11
+                    [host_info] => 127.0.0.1 via TCP/IP
+                    [info] => 
+                    [insert_id] => 0
+                    [server_info] => 5.5.36
+                    [server_version] => 50536
+                    [stat] => Uptime: 124155  Threads: 1  Questions: 12389  Slow queries: 0  Opens: 145  Flush tables: 1  Open tables: 138  Queries per second avg: 0.099
+                    [sqlstate] => 00000
+                    [protocol_version] => 10
+                    [thread_id] => 217
+                    [warning_count] => 0
+                )
+
+            [drivername:DB:private] => mysqlii
+            [drivername2:DB:private] => 
+            [driver2:DB:private] => 
+        )
+
+    [request] => Request Object
+        (
+            [get] => Array
+                (
+                    [route] => common/login
+                )
+
+            [post] => Array
+                (
+                    [username] => litao
+                    [password] => 854187817
+                )
+
+            [cookie] => Array
+                (
+                    [PHPSESSID] => bcdb4eccf446689ea7edb72c7496151a
+                    [language] => cn
+                    [currency] => CNY
+                )
+
+            [files] => Array
+                (
+                )
+
+            [server] => Array
+                (
+                    [HTTP_HOST] => qncjv3
+                    [HTTP_CONNECTION] => keep-alive
+                    [CONTENT_LENGTH] => 248
+                    [HTTP_CACHE_CONTROL] => max-age=0
+                    [HTTP_ORIGIN] => http://qncjv3
+                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+                    [CONTENT_TYPE] => multipart/form-data; boundary=----WebKitFormBoundaryKN5l8lSZZGYAY3oD
+                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [HTTP_REFERER] => http://qncjv3/admin/
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+                    [HTTP_ACCEPT_LANGUAGE] => zh-CN,zh;q=0.8,en;q=0.6
+                    [HTTP_COOKIE] => PHPSESSID=bcdb4eccf446689ea7edb72c7496151a; language=cn; currency=CNY
+                    [PATH] => /usr/bin:/bin:/usr/sbin:/sbin
+                    [SERVER_SIGNATURE] => 
+                    [SERVER_SOFTWARE] => Apache/2.4.23 (Unix) PHP/5.6.28
+                    [SERVER_NAME] => qncjv3
+                    [SERVER_ADDR] => 127.0.0.1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => 127.0.0.1
+                    [DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [SERVER_ADMIN] => you@example.com
+                    [SCRIPT_FILENAME] => /Library/WebServer/qncj/webv3/admin/index.php
+                    [REMOTE_PORT] => 53124
+                    [GATEWAY_INTERFACE] => CGI/1.1
+        
+_id:20170331094141.0.25277300.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2017-03-31 09:41:41.,logger:admin,pid:5160,level:INFO,client:127.0.0.1:53124 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20170331094141.0.25973800.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2017-03-31 09:41:41.,logger:admin,pid:5160,level:INFO,client:127.0.0.1:53124 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20170331094141.0.28882300.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2017-03-31 09:41:41.,logger:admin,pid:5160,level:INFO,client:127.0.0.1:53124 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20170331094141.0.32168100.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2017-03-31 09:41:41.,logger:admin,pid:5160,level:INFO,client:127.0.0.1:53124 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20170331094141.0.33310600.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2017-03-31 09:41:41.,logger:admin,pid:5160,level:INFO,client:127.0.0.1:53124 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20170331094141.0.33902700.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2017-03-31 09:41:41.,logger:admin,pid:5160,level:INFO,client:127.0.0.1:53124 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20170331094142.0.49358800.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2017-03-31 09:41:42.,logger:admin,pid:5160,level:INFO,client:127.0.0.1:53124 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20170331094142.0.84930100.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2017-03-31 09:41:42.,logger:admin,pid:5160,level:INFO,client:127.0.0.1:53124 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20170331094142.0.86422500.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2017-03-31 09:41:42.,logger:admin,pid:5160,level:INFO,client:127.0.0.1:53124 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20170331094142.0.86771900.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2017-03-31 09:41:42.,logger:admin,pid:5160,level:INFO,client:127.0.0.1:53124 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20170331094142.0.87116300.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2017-03-31 09:41:42.,logger:admin,pid:5160,level:INFO,client:127.0.0.1:53124 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20170331094142.0.88262500.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2017-03-31 09:41:42.,logger:admin,pid:5160,level:INFO,client:127.0.0.1:53124 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20170331094142.0.89341500.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2017-03-31 09:41:42.,logger:admin,pid:5160,level:INFO,client:127.0.0.1:53124 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20170331094142.0.89677900.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2017-03-31 09:41:42.,logger:admin,pid:5160,level:INFO,client:127.0.0.1:53124 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20170331094207.0.18167200.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2017-03-31 09:42:07.,logger:admin,pid:5161,level:INFO,client:127.0.0.1:53132 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20170331094207.0.18810300.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2017-03-31 09:42:07.,logger:admin,pid:5161,level:INFO,client:127.0.0.1:53132 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20170331094207.0.21021200.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2017-03-31 09:42:07.,logger:admin,pid:5161,level:INFO,client:127.0.0.1:53132 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20170331094207.0.21665900.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2017-03-31 09:42:07.,logger:admin,pid:5161,level:INFO,client:127.0.0.1:53132 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20170331094207.0.22238000.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2017-03-31 09:42:07.,logger:admin,pid:5161,level:INFO,client:127.0.0.1:53132 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20170331094207.0.22778200.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2017-03-31 09:42:07.,logger:admin,pid:5161,level:INFO,client:127.0.0.1:53132 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20170331094207.0.79760300.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2017-03-31 09:42:07.,logger:admin,pid:5161,level:INFO,client:127.0.0.1:53132 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20170331094207.0.99830500.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2017-03-31 09:42:07.,logger:admin,pid:5161,level:INFO,client:127.0.0.1:53132 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20170331094208.0.02345200.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2017-03-31 09:42:08.,logger:admin,pid:5161,level:INFO,client:127.0.0.1:53132 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20170331094208.0.02685800.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2017-03-31 09:42:08.,logger:admin,pid:5161,level:INFO,client:127.0.0.1:53132 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20170331094208.0.02985400.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2017-03-31 09:42:08.,logger:admin,pid:5161,level:INFO,client:127.0.0.1:53132 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20170331094208.0.05356000.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2017-03-31 09:42:08.,logger:admin,pid:5161,level:INFO,client:127.0.0.1:53132 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20170331094208.0.06112200.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2017-03-31 09:42:08.,logger:admin,pid:5161,level:INFO,client:127.0.0.1:53132 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20170331094208.0.08492600.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2017-03-31 09:42:08.,logger:admin,pid:5161,level:INFO,client:127.0.0.1:53132 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20170331094211.0.51507800.1.admin/catalog/product.ServiceMeituanProduct.HMTProList:34..,timestamp:2017-03-31 09:42:11.,logger:admin,pid:5161,level:INFO,client:127.0.0.1:53132 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/catalog/product::ServiceMeituanProduct.HMTProList:34,message:http://182.92.190.78:8080/BPMCommon/services/mtws/food/lista:3:{s:5:"appid";s:32:"EB238a69209c7f0b952a6bba61166f4b";s:11:"sign_method";i:1;s:2:"sn";s:32:"444277df26bbc1dc02bc29dfc24fc637";}
+_id:20170331094211.0.57262300.2.admin/catalog/product.ServiceMeituanProduct.HMTProList:40..,timestamp:2017-03-31 09:42:11.,logger:admin,pid:5161,level:ERROR,client:127.0.0.1:53132 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/catalog/product::ServiceMeituanProduct.HMTProList:40,message:
+_id:20170331135131.0.92780500.1.admin/common/login.ControllerCommonLogin.validate:123..,timestamp:2017-03-31 13:51:31.,logger:admin,pid:5159,level:INFO,client:127.0.0.1:55429 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/login::ControllerCommonLogin.validate:123,message:User Object
+(
+    [user_id:User:private] => 10
+    [username:User:private] => litao
+    [permission:User:private] => Array
+        (
+            [super_admin] => 1
+        )
+
+    [reqcontroller:User:private] => common
+    [user_group_id:User:private] => 1
+    [is_admin:User:private] => 
+    [super_admin:User:private] => 1
+    [db] => DB Object
+        (
+            [driver:DB:private] => MySQLii Object
+                (
+                    [affected_rows] => 1
+                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id$
+                    [client_version] => 50011
+                    [connect_errno] => 0
+                    [connect_error] => 
+                    [errno] => 0
+                    [error] => 
+                    [error_list] => Array
+                        (
+                        )
+
+                    [field_count] => 11
+                    [host_info] => 127.0.0.1 via TCP/IP
+                    [info] => 
+                    [insert_id] => 0
+                    [server_info] => 5.5.36
+                    [server_version] => 50536
+                    [stat] => Uptime: 139145  Threads: 5  Questions: 15222  Slow queries: 0  Opens: 252  Flush tables: 1  Open tables: 191  Queries per second avg: 0.109
+                    [sqlstate] => 00000
+                    [protocol_version] => 10
+                    [thread_id] => 317
+                    [warning_count] => 0
+                )
+
+            [drivername:DB:private] => mysqlii
+            [drivername2:DB:private] => 
+            [driver2:DB:private] => 
+        )
+
+    [request] => Request Object
+        (
+            [get] => Array
+                (
+                    [route] => common/login
+                )
+
+            [post] => Array
+                (
+                    [username] => litao
+                    [password] => 854187817
+                    [redirect] => http://qncjv3/admin/index.php?route=catalog/product/update&amp;product_id=394
+                )
+
+            [cookie] => Array
+                (
+                    [PHPSESSID] => bcdb4eccf446689ea7edb72c7496151a
+                    [language] => cn
+                    [currency] => CNY
+                )
+
+            [files] => Array
+                (
+                )
+
+            [server] => Array
+                (
+                    [HTTP_HOST] => qncjv3
+                    [HTTP_CONNECTION] => keep-alive
+                    [CONTENT_LENGTH] => 416
+                    [HTTP_CACHE_CONTROL] => max-age=0
+                    [HTTP_ORIGIN] => http://qncjv3
+                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+                    [CONTENT_TYPE] => multipart/form-data; boundary=----WebKitFormBoundary8ipZlJVOQfKwfsuB
+                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+                    [HTTP_REFERER] => http://qncjv3/admin/index.php?route=catalog/product/update&amp;token=964a6c91594b3abde27cdbec08522e88&amp;product_id=394
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+                    [HTTP_ACCEPT_LANGUAGE] => zh-CN,zh;q=0.8,en;q=0.6
+                    [HTTP_COOKIE] => PHPSESSID=bcdb4eccf446689ea7edb72c7496151a; language=cn; currency=CNY
+                    [PATH] => /usr/bin:/bin:/usr/sbin:/sbin
+                    [SERVER_SIGNATURE] => 
+                    [SERVER_SOFTWARE] => Apache/2.4.23 (Unix) PHP/5.6.28
+                    [SERVER_NAME] => qncjv3
+                    [SERVER_ADDR] => 127.0.0.1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => 127.0.0.1
+                    [DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [SERVER_ADM
+_id:20170331165225.0.93203400.1.admin/catalog/product.ServiceMeituanProduct.HMTProList:34..,timestamp:2017-03-31 16:52:25.,logger:admin,pid:688,level:INFO,client:127.0.0.1:58095 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/catalog/product::ServiceMeituanProduct.HMTProList:34,message:http://182.92.190.78:8080/BPMCommon/services/mtws/food/lista:3:{s:5:"appid";s:32:"EB238a69209c7f0b952a6bba61166f4b";s:11:"sign_method";i:1;s:2:"sn";s:32:"444277df26bbc1dc02bc29dfc24fc637";}
+_id:20170331165225.0.96642100.2.admin/catalog/product.ServiceMeituanProduct.HMTProList:40..,timestamp:2017-03-31 16:52:25.,logger:admin,pid:688,level:ERROR,client:127.0.0.1:58095 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/catalog/product::ServiceMeituanProduct.HMTProList:40,message:
+_id:20170503182854.0.47062100.1.admin/common/login.ControllerCommonLogin.validate:123..,timestamp:2017-05-03 18:28:54.,logger:admin,pid:6830,level:INFO,client:127.0.0.1:62082 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/login::ControllerCommonLogin.validate:123,message:User Object
+(
+    [user_id:User:private] => 10
+    [username:User:private] => litao
+    [permission:User:private] => Array
+        (
+            [super_admin] => 1
+        )
+
+    [reqcontroller:User:private] => common
+    [user_group_id:User:private] => 1
+    [is_admin:User:private] => 
+    [super_admin:User:private] => 1
+    [db] => DB Object
+        (
+            [driver:DB:private] => MySQLii Object
+                (
+                    [affected_rows] => 1
+                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id$
+                    [client_version] => 50011
+                    [connect_errno] => 0
+                    [connect_error] => 
+                    [errno] => 0
+                    [error] => 
+                    [error_list] => Array
+                        (
+                        )
+
+                    [field_count] => 11
+                    [host_info] => 127.0.0.1 via TCP/IP
+                    [info] => 
+                    [insert_id] => 0
+                    [server_info] => 5.5.36
+                    [server_version] => 50536
+                    [stat] => Uptime: 423429  Threads: 3  Questions: 38764  Slow queries: 0  Opens: 264  Flush tables: 1  Open tables: 253  Queries per second avg: 0.091
+                    [sqlstate] => 00000
+                    [protocol_version] => 10
+                    [thread_id] => 539
+                    [warning_count] => 0
+                )
+
+            [drivername:DB:private] => mysqlii
+            [drivername2:DB:private] => 
+            [driver2:DB:private] => 
+        )
+
+    [request] => Request Object
+        (
+            [get] => Array
+                (
+                    [route] => common/login
+                )
+
+            [post] => Array
+                (
+                    [username] => litao
+                    [password] => 854187817
+                )
+
+            [cookie] => Array
+                (
+                    [Hm_lvt_61f1331aa9214144042cf468daaf9caf] => 1493807239
+                    [language] => cn
+                    [currency] => CNY
+                    [PHPSESSID] => a712dad77d56ea30565a5c076aff5af0
+                    [Hm_lpvt_61f1331aa9214144042cf468daaf9caf] => 1493807239
+                )
+
+            [files] => Array
+                (
+                )
+
+            [server] => Array
+                (
+                    [HTTP_HOST] => qncjv3
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16
+                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+                    [HTTP_ACCEPT_LANGUAGE] => zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+                    [CONTENT_TYPE] => multipart/form-data; boundary=---------------------------3650234201735324108616873249
+                    [CONTENT_LENGTH] => 299
+                    [HTTP_REFERER] => http://qncjv3/admin/
+                    [HTTP_COOKIE] => Hm_lvt_61f1331aa9214144042cf468daaf9caf=1493807239; language=cn; currency=CNY; PHPSESSID=a712dad77d56ea30565a5c076aff5af0; Hm_lpvt_61f1331aa9214144042cf468daaf9caf=1493807239
+                    [HTTP_CONNECTION] => keep-alive
+                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                    [PATH] => /usr/bin:/bin:/usr/sbin:/sbin
+                    [SERVER_SIGNATURE] => 
+                    [SERVER_SOFTWARE] => Apache/2.4.25 (Unix) PHP/5.6.30
+                    [SERVER_NAME] => qncjv3
+                    [SERVER_ADDR] => 127.0.0.1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => 127.0.0.1
+                    [DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [SERVER_ADMIN] => you@example.c
+_id:20170503182854.0.68294900.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2017-05-03 18:28:54.,logger:admin,pid:6830,level:INFO,client:127.0.0.1:62082 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20170503182854.0.69159700.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2017-05-03 18:28:54.,logger:admin,pid:6830,level:INFO,client:127.0.0.1:62082 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20170503182854.0.70304600.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2017-05-03 18:28:54.,logger:admin,pid:6830,level:INFO,client:127.0.0.1:62082 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20170503182854.0.73152400.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2017-05-03 18:28:54.,logger:admin,pid:6830,level:INFO,client:127.0.0.1:62082 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20170503182854.0.74238600.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2017-05-03 18:28:54.,logger:admin,pid:6830,level:INFO,client:127.0.0.1:62082 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20170503182854.0.74747700.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2017-05-03 18:28:54.,logger:admin,pid:6830,level:INFO,client:127.0.0.1:62082 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20170503182856.0.09752700.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2017-05-03 18:28:56.,logger:admin,pid:6830,level:INFO,client:127.0.0.1:62082 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20170503182856.0.56107400.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2017-05-03 18:28:56.,logger:admin,pid:6830,level:INFO,client:127.0.0.1:62082 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20170503182856.0.57270400.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2017-05-03 18:28:56.,logger:admin,pid:6830,level:INFO,client:127.0.0.1:62082 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20170503182856.0.57718100.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2017-05-03 18:28:56.,logger:admin,pid:6830,level:INFO,client:127.0.0.1:62082 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20170503182856.0.58087500.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2017-05-03 18:28:56.,logger:admin,pid:6830,level:INFO,client:127.0.0.1:62082 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20170503182856.0.59206100.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2017-05-03 18:28:56.,logger:admin,pid:6830,level:INFO,client:127.0.0.1:62082 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20170503182856.0.60143400.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2017-05-03 18:28:56.,logger:admin,pid:6830,level:INFO,client:127.0.0.1:62082 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20170503182856.0.60489300.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2017-05-03 18:28:56.,logger:admin,pid:6830,level:INFO,client:127.0.0.1:62082 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20170814111301.0.16992900.1.admin/common/login.ControllerCommonLogin.validate:123..,timestamp:2017-08-14 11:13:01.15297,logger:admin,pid:1188,level:INFO,client:127.0.0.1:52968 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/login::ControllerCommonLogin.validate:123,message:User Object
+(
+    [user_id:User:private] => 10
+    [username:User:private] => litao
+    [permission:User:private] => Array
+        (
+            [super_admin] => 1
+        )
+
+    [reqcontroller:User:private] => common
+    [user_group_id:User:private] => 1
+    [is_admin:User:private] => 
+    [super_admin:User:private] => 1
+    [db] => DB Object
+        (
+            [driver:DB:private] => MySQLii Object
+                (
+                    [affected_rows] => 1
+                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id$
+                    [client_version] => 50011
+                    [connect_errno] => 0
+                    [connect_error] => 
+                    [errno] => 0
+                    [error] => 
+                    [error_list] => Array
+                        (
+                        )
+
+                    [field_count] => 11
+                    [host_info] => 127.0.0.1 via TCP/IP
+                    [info] => 
+                    [insert_id] => 0
+                    [server_info] => 5.5.36
+                    [server_version] => 50536
+                    [stat] => Uptime: 1211  Threads: 3  Questions: 979  Slow queries: 0  Opens: 125  Flush tables: 1  Open tables: 118  Queries per second avg: 0.808
+                    [sqlstate] => 00000
+                    [protocol_version] => 10
+                    [thread_id] => 30
+                    [warning_count] => 0
+                )
+
+            [drivername:DB:private] => mysqlii
+            [drivername2:DB:private] => 
+            [driver2:DB:private] => 
+        )
+
+    [request] => Request Object
+        (
+            [get] => Array
+                (
+                    [route] => common/login
+                )
+
+            [post] => Array
+                (
+                    [username] => litao
+                    [password] => 854187817
+                )
+
+            [cookie] => Array
+                (
+                    [Hm_lvt_61f1331aa9214144042cf468daaf9caf] => 1502680072
+                    [language] => cn
+                    [currency] => CNY
+                    [PHPSESSID] => 37cb2e7d6d779154b7fa6f942effbeab
+                    [Hm_lpvt_61f1331aa9214144042cf468daaf9caf] => 1502680072
+                )
+
+            [files] => Array
+                (
+                )
+
+            [server] => Array
+                (
+                    [HTTP_HOST] => qncjv3
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16
+                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+                    [HTTP_ACCEPT_LANGUAGE] => zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+                    [CONTENT_TYPE] => multipart/form-data; boundary=---------------------------12663293241634006698729695450
+                    [CONTENT_LENGTH] => 302
+                    [HTTP_REFERER] => http://qncjv3/admin/
+                    [HTTP_COOKIE] => Hm_lvt_61f1331aa9214144042cf468daaf9caf=1502680072; language=cn; currency=CNY; PHPSESSID=37cb2e7d6d779154b7fa6f942effbeab; Hm_lpvt_61f1331aa9214144042cf468daaf9caf=1502680072
+                    [HTTP_CONNECTION] => keep-alive
+                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                    [PATH] => /usr/bin:/bin:/usr/sbin:/sbin
+                    [SERVER_SIGNATURE] => 
+                    [SERVER_SOFTWARE] => Apache/2.4.25 (Unix) PHP/5.6.30
+                    [SERVER_NAME] => qncjv3
+                    [SERVER_ADDR] => 127.0.0.1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => 127.0.0.1
+                    [DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [SERVER_ADMIN] => you@example.com
+ 
+_id:20170814111301.0.35869300.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2017-08-14 11:13:01.15297,logger:admin,pid:1188,level:INFO,client:127.0.0.1:52968 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20170814111301.0.36947500.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2017-08-14 11:13:01.15297,logger:admin,pid:1188,level:INFO,client:127.0.0.1:52968 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20170814111301.0.37928700.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2017-08-14 11:13:01.15297,logger:admin,pid:1188,level:INFO,client:127.0.0.1:52968 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20170814111301.0.41018100.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2017-08-14 11:13:01.15297,logger:admin,pid:1188,level:INFO,client:127.0.0.1:52968 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20170814111301.0.41791500.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2017-08-14 11:13:01.15297,logger:admin,pid:1188,level:INFO,client:127.0.0.1:52968 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20170814111301.0.42066200.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2017-08-14 11:13:01.15297,logger:admin,pid:1188,level:INFO,client:127.0.0.1:52968 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20170814111302.0.56229400.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2017-08-14 11:13:02.15297,logger:admin,pid:1188,level:INFO,client:127.0.0.1:52968 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20170814111302.0.88459600.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2017-08-14 11:13:02.15297,logger:admin,pid:1188,level:INFO,client:127.0.0.1:52968 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20170814111302.0.89459200.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2017-08-14 11:13:02.15297,logger:admin,pid:1188,level:INFO,client:127.0.0.1:52968 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20170814111302.0.89707100.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2017-08-14 11:13:02.15297,logger:admin,pid:1188,level:INFO,client:127.0.0.1:52968 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20170814111302.0.90135000.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2017-08-14 11:13:02.15297,logger:admin,pid:1188,level:INFO,client:127.0.0.1:52968 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20170814111302.0.90952500.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2017-08-14 11:13:02.15297,logger:admin,pid:1188,level:INFO,client:127.0.0.1:52968 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20170814111302.0.91581700.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2017-08-14 11:13:02.15297,logger:admin,pid:1188,level:INFO,client:127.0.0.1:52968 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20170814111302.0.91811600.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2017-08-14 11:13:02.15297,logger:admin,pid:1188,level:INFO,client:127.0.0.1:52968 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20170814111347.0.82523000.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2017-08-14 11:13:47.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53000 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20170814111347.0.82847500.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2017-08-14 11:13:47.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53000 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20170814111347.0.84269000.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2017-08-14 11:13:47.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53000 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20170814111347.0.84855300.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2017-08-14 11:13:47.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53000 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20170814111347.0.85215700.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2017-08-14 11:13:47.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53000 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20170814111347.0.85494100.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2017-08-14 11:13:47.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53000 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20170814111348.0.60150800.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2017-08-14 11:13:48.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53000 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20170814111348.0.80945900.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2017-08-14 11:13:48.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53000 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20170814111348.0.81306700.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2017-08-14 11:13:48.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53000 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20170814111348.0.81515600.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2017-08-14 11:13:48.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53000 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20170814111348.0.81734300.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2017-08-14 11:13:48.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53000 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20170814111348.0.81989000.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2017-08-14 11:13:48.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53000 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20170814111348.0.82524400.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2017-08-14 11:13:48.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53000 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20170814111348.0.82719500.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2017-08-14 11:13:48.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53000 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20170814111850.0.10176700.1.admin/catalog/product.ServiceMeituanProduct.HMTProList:34..,timestamp:2017-08-14 11:18:50.15297,logger:admin,pid:1186,level:INFO,client:127.0.0.1:53158 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/catalog/product::ServiceMeituanProduct.HMTProList:34,message:http://182.92.190.78:8080/BPMCommon/services/mtws/food/lista:3:{s:5:"appid";s:32:"EB238a69209c7f0b952a6bba61166f4b";s:11:"sign_method";i:1;s:2:"sn";s:32:"444277df26bbc1dc02bc29dfc24fc637";}
+_id:20170814111920.0.19418100.2.admin/catalog/product.ServiceMeituanProduct.HMTProList:40..,timestamp:2017-08-14 11:19:20.15297,logger:admin,pid:1186,level:ERROR,client:127.0.0.1:53158 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/catalog/product::ServiceMeituanProduct.HMTProList:40,message:
+_id:20170814112008.0.62657000.1.admin/catalog/product.ServiceMeituanProduct.HMTProList:34..,timestamp:2017-08-14 11:20:08.15297,logger:admin,pid:1188,level:INFO,client:127.0.0.1:53186 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/catalog/product::ServiceMeituanProduct.HMTProList:34,message:http://182.92.190.78:8080/BPMCommon/services/mtws/food/lista:3:{s:5:"appid";s:32:"EB238a69209c7f0b952a6bba61166f4b";s:11:"sign_method";i:1;s:2:"sn";s:32:"444277df26bbc1dc02bc29dfc24fc637";}
+_id:20170814112038.0.70837000.2.admin/catalog/product.ServiceMeituanProduct.HMTProList:40..,timestamp:2017-08-14 11:20:38.15297,logger:admin,pid:1188,level:ERROR,client:127.0.0.1:53186 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/catalog/product::ServiceMeituanProduct.HMTProList:40,message:
+_id:20170814114351.0.49476200.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2017-08-14 11:43:51.15297,logger:admin,pid:1187,level:INFO,client:127.0.0.1:53296 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20170814114351.0.50233500.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2017-08-14 11:43:51.15297,logger:admin,pid:1187,level:INFO,client:127.0.0.1:53296 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20170814114351.0.50891300.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2017-08-14 11:43:51.15297,logger:admin,pid:1187,level:INFO,client:127.0.0.1:53296 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20170814114351.0.52285600.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2017-08-14 11:43:51.15297,logger:admin,pid:1187,level:INFO,client:127.0.0.1:53296 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20170814114351.0.53466700.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2017-08-14 11:43:51.15297,logger:admin,pid:1187,level:INFO,client:127.0.0.1:53296 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20170814114351.0.53728400.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2017-08-14 11:43:51.15297,logger:admin,pid:1187,level:INFO,client:127.0.0.1:53296 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20170814114352.0.21021900.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2017-08-14 11:43:52.15297,logger:admin,pid:1187,level:INFO,client:127.0.0.1:53296 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20170814114352.0.44469800.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2017-08-14 11:43:52.15297,logger:admin,pid:1187,level:INFO,client:127.0.0.1:53296 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20170814114352.0.45526000.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2017-08-14 11:43:52.15297,logger:admin,pid:1187,level:INFO,client:127.0.0.1:53296 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20170814114352.0.45791800.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2017-08-14 11:43:52.15297,logger:admin,pid:1187,level:INFO,client:127.0.0.1:53296 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20170814114352.0.46009400.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2017-08-14 11:43:52.15297,logger:admin,pid:1187,level:INFO,client:127.0.0.1:53296 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20170814114352.0.46838600.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2017-08-14 11:43:52.15297,logger:admin,pid:1187,level:INFO,client:127.0.0.1:53296 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20170814114352.0.47643700.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2017-08-14 11:43:52.15297,logger:admin,pid:1187,level:INFO,client:127.0.0.1:53296 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20170814114352.0.47868100.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2017-08-14 11:43:52.15297,logger:admin,pid:1187,level:INFO,client:127.0.0.1:53296 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20170814114611.0.71928300.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2017-08-14 11:46:11.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53352 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20170814114611.0.72362800.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2017-08-14 11:46:11.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53352 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20170814114611.0.72908600.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2017-08-14 11:46:11.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53352 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20170814114611.0.73647900.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2017-08-14 11:46:11.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53352 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20170814114611.0.74060300.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2017-08-14 11:46:11.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53352 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20170814114611.0.74312600.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2017-08-14 11:46:11.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53352 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20170814114612.0.38735100.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2017-08-14 11:46:12.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53352 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20170814114612.0.56300200.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2017-08-14 11:46:12.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53352 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20170814114612.0.56672100.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2017-08-14 11:46:12.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53352 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20170814114612.0.56884100.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2017-08-14 11:46:12.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53352 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20170814114612.0.57100500.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2017-08-14 11:46:12.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53352 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20170814114612.0.57385700.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2017-08-14 11:46:12.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53352 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20170814114612.0.57869500.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2017-08-14 11:46:12.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53352 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20170814114612.0.58096900.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2017-08-14 11:46:12.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53352 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20170814114657.0.59531000.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2017-08-14 11:46:57.15297,logger:admin,pid:1190,level:INFO,client:127.0.0.1:53370 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20170814114657.0.59950000.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2017-08-14 11:46:57.15297,logger:admin,pid:1190,level:INFO,client:127.0.0.1:53370 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20170814114657.0.60712900.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2017-08-14 11:46:57.15297,logger:admin,pid:1190,level:INFO,client:127.0.0.1:53370 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20170814114657.0.61492900.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2017-08-14 11:46:57.15297,logger:admin,pid:1190,level:INFO,client:127.0.0.1:53370 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20170814114657.0.62065100.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2017-08-14 11:46:57.15297,logger:admin,pid:1190,level:INFO,client:127.0.0.1:53370 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20170814114657.0.62750800.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2017-08-14 11:46:57.15297,logger:admin,pid:1190,level:INFO,client:127.0.0.1:53370 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20170814114658.0.26892100.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2017-08-14 11:46:58.15297,logger:admin,pid:1190,level:INFO,client:127.0.0.1:53370 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20170814114658.0.46135000.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2017-08-14 11:46:58.15297,logger:admin,pid:1190,level:INFO,client:127.0.0.1:53370 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20170814114658.0.46667700.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2017-08-14 11:46:58.15297,logger:admin,pid:1190,level:INFO,client:127.0.0.1:53370 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20170814114658.0.46980100.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2017-08-14 11:46:58.15297,logger:admin,pid:1190,level:INFO,client:127.0.0.1:53370 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20170814114658.0.47444400.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2017-08-14 11:46:58.15297,logger:admin,pid:1190,level:INFO,client:127.0.0.1:53370 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20170814114658.0.47983700.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2017-08-14 11:46:58.15297,logger:admin,pid:1190,level:INFO,client:127.0.0.1:53370 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20170814114658.0.48896400.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2017-08-14 11:46:58.15297,logger:admin,pid:1190,level:INFO,client:127.0.0.1:53370 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20170814114658.0.49225100.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2017-08-14 11:46:58.15297,logger:admin,pid:1190,level:INFO,client:127.0.0.1:53370 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20170814114909.0.27008200.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2017-08-14 11:49:09.15297,logger:admin,pid:411,level:INFO,client:127.0.0.1:53407 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20170814114909.0.28091700.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2017-08-14 11:49:09.15297,logger:admin,pid:411,level:INFO,client:127.0.0.1:53407 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20170814114909.0.29145500.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2017-08-14 11:49:09.15297,logger:admin,pid:411,level:INFO,client:127.0.0.1:53407 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20170814114909.0.32022400.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2017-08-14 11:49:09.15297,logger:admin,pid:411,level:INFO,client:127.0.0.1:53407 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20170814114909.0.32849900.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2017-08-14 11:49:09.15297,logger:admin,pid:411,level:INFO,client:127.0.0.1:53407 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20170814114909.0.33303000.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2017-08-14 11:49:09.15297,logger:admin,pid:411,level:INFO,client:127.0.0.1:53407 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20170814114910.0.20942600.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2017-08-14 11:49:10.15297,logger:admin,pid:411,level:INFO,client:127.0.0.1:53407 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20170814114910.0.40644800.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2017-08-14 11:49:10.15297,logger:admin,pid:411,level:INFO,client:127.0.0.1:53407 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20170814114910.0.41194200.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2017-08-14 11:49:10.15297,logger:admin,pid:411,level:INFO,client:127.0.0.1:53407 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20170814114910.0.41585600.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2017-08-14 11:49:10.15297,logger:admin,pid:411,level:INFO,client:127.0.0.1:53407 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20170814114910.0.41899400.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2017-08-14 11:49:10.15297,logger:admin,pid:411,level:INFO,client:127.0.0.1:53407 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20170814114910.0.42336200.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2017-08-14 11:49:10.15297,logger:admin,pid:411,level:INFO,client:127.0.0.1:53407 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20170814114910.0.43484200.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2017-08-14 11:49:10.15297,logger:admin,pid:411,level:INFO,client:127.0.0.1:53407 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20170814114910.0.44107000.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2017-08-14 11:49:10.15297,logger:admin,pid:411,level:INFO,client:127.0.0.1:53407 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20170814114927.0.28371700.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2017-08-14 11:49:27.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53425 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20170814114927.0.28845900.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2017-08-14 11:49:27.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53425 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20170814114927.0.30369900.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2017-08-14 11:49:27.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53425 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20170814114927.0.31188800.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2017-08-14 11:49:27.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53425 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20170814114927.0.31839500.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2017-08-14 11:49:27.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53425 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20170814114927.0.32405000.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2017-08-14 11:49:27.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53425 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20170814114927.0.97056800.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2017-08-14 11:49:27.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53425 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20170814114928.0.15840100.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2017-08-14 11:49:28.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53425 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20170814114928.0.16371600.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2017-08-14 11:49:28.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53425 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20170814114928.0.16682700.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2017-08-14 11:49:28.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53425 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20170814114928.0.17045100.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2017-08-14 11:49:28.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53425 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20170814114928.0.17420700.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2017-08-14 11:49:28.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53425 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20170814114928.0.18156500.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2017-08-14 11:49:28.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53425 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20170814114928.0.18737000.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2017-08-14 11:49:28.15297,logger:admin,pid:1185,level:INFO,client:127.0.0.1:53425 Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20170823142748.0.84116900.1.admin/common/login.ControllerCommonLogin.validate:123..,timestamp:2017-08-23 14:27:48.,logger:admin,pid:2512,level:INFO,client:127.0.0.1:62019 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/login::ControllerCommonLogin.validate:123,message:User Object
+(
+    [user_id:User:private] => 10
+    [username:User:private] => litao
+    [permission:User:private] => Array
+        (
+            [super_admin] => 1
+        )
+
+    [reqcontroller:User:private] => common
+    [user_group_id:User:private] => 1
+    [is_admin:User:private] => 
+    [super_admin:User:private] => 1
+    [db] => DB Object
+        (
+            [driver:DB:private] => MySQLii Object
+                (
+                    [affected_rows] => 1
+                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id$
+                    [client_version] => 50011
+                    [connect_errno] => 0
+                    [connect_error] => 
+                    [errno] => 0
+                    [error] => 
+                    [error_list] => Array
+                        (
+                        )
+
+                    [field_count] => 11
+                    [host_info] => 127.0.0.1 via TCP/IP
+                    [info] => 
+                    [insert_id] => 0
+                    [server_info] => 5.5.36
+                    [server_version] => 50536
+                    [stat] => Uptime: 186440  Threads: 1  Questions: 15614  Slow queries: 0  Opens: 78  Flush tables: 1  Open tables: 65  Queries per second avg: 0.083
+                    [sqlstate] => 00000
+                    [protocol_version] => 10
+                    [thread_id] => 1926
+                    [warning_count] => 0
+                )
+
+            [drivername:DB:private] => mysqlii
+            [drivername2:DB:private] => 
+            [driver2:DB:private] => 
+        )
+
+    [request] => Request Object
+        (
+            [get] => Array
+                (
+                    [route] => common/login
+                )
+
+            [post] => Array
+                (
+                    [username] => litao
+                    [password] => 854187817
+                )
+
+            [cookie] => Array
+                (
+                    [Hm_lvt_61f1331aa9214144042cf468daaf9caf] => 1502682371
+                    [language] => cn
+                    [currency] => CNY
+                    [PHPSESSID] => 5d4634ef9f0cc523a50fe1b6130d365b
+                )
+
+            [files] => Array
+                (
+                )
+
+            [server] => Array
+                (
+                    [HTTP_HOST] => qncjv3
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0
+                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+                    [HTTP_ACCEPT_LANGUAGE] => zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+                    [CONTENT_TYPE] => multipart/form-data; boundary=---------------------------95112186117843332061826546534
+                    [CONTENT_LENGTH] => 302
+                    [HTTP_REFERER] => http://qncjv3/admin/
+                    [HTTP_COOKIE] => Hm_lvt_61f1331aa9214144042cf468daaf9caf=1502682371; language=cn; currency=CNY; PHPSESSID=5d4634ef9f0cc523a50fe1b6130d365b
+                    [HTTP_CONNECTION] => keep-alive
+                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                    [PATH] => /usr/bin:/bin:/usr/sbin:/sbin
+                    [SERVER_SIGNATURE] => 
+                    [SERVER_SOFTWARE] => Apache/2.4.25 (Unix) PHP/5.6.30
+                    [SERVER_NAME] => qncjv3
+                    [SERVER_ADDR] => 127.0.0.1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => 127.0.0.1
+                    [DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [SERVER_ADMIN] => you@example.com
+                    [SCRIPT_FILENAME] => /Library/WebServer/qncj/webv3/admin/index.php
+                    [REMOTE_PORT] => 62019
+                    [GATEWAY_INTERFACE] => CGI/1.1
+     
+_id:20170823142749.0.06914400.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2017-08-23 14:27:49.,logger:admin,pid:2512,level:INFO,client:127.0.0.1:62019 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20170823142749.0.07768700.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2017-08-23 14:27:49.,logger:admin,pid:2512,level:INFO,client:127.0.0.1:62019 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20170823142749.0.10341600.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2017-08-23 14:27:49.,logger:admin,pid:2512,level:INFO,client:127.0.0.1:62019 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20170823142749.0.12003700.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2017-08-23 14:27:49.,logger:admin,pid:2512,level:INFO,client:127.0.0.1:62019 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20170823142749.0.15289400.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2017-08-23 14:27:49.,logger:admin,pid:2512,level:INFO,client:127.0.0.1:62019 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20170823142749.0.15980100.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2017-08-23 14:27:49.,logger:admin,pid:2512,level:INFO,client:127.0.0.1:62019 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20170823142750.0.52132700.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2017-08-23 14:27:50.,logger:admin,pid:2512,level:INFO,client:127.0.0.1:62019 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20170823142750.0.90498600.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2017-08-23 14:27:50.,logger:admin,pid:2512,level:INFO,client:127.0.0.1:62019 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20170823142750.0.92183300.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2017-08-23 14:27:50.,logger:admin,pid:2512,level:INFO,client:127.0.0.1:62019 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20170823142750.0.92661400.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2017-08-23 14:27:50.,logger:admin,pid:2512,level:INFO,client:127.0.0.1:62019 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20170823142750.0.93044800.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2017-08-23 14:27:50.,logger:admin,pid:2512,level:INFO,client:127.0.0.1:62019 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20170823142750.0.94016800.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2017-08-23 14:27:50.,logger:admin,pid:2512,level:INFO,client:127.0.0.1:62019 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20170823142750.0.95093200.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2017-08-23 14:27:50.,logger:admin,pid:2512,level:INFO,client:127.0.0.1:62019 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20170823142750.0.95464000.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2017-08-23 14:27:50.,logger:admin,pid:2512,level:INFO,client:127.0.0.1:62019 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20170908103239.0.18592000.1.admin/common/login.ControllerCommonLogin.validate:123..,timestamp:2017-09-08 10:32:39.,logger:admin,pid:16749,level:INFO,client:127.0.0.1:53968 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/login::ControllerCommonLogin.validate:123,message:User Object
+(
+    [user_id:User:private] => 10
+    [username:User:private] => litao
+    [permission:User:private] => Array
+        (
+            [super_admin] => 1
+        )
+
+    [reqcontroller:User:private] => common
+    [user_group_id:User:private] => 1
+    [is_admin:User:private] => 
+    [super_admin:User:private] => 1
+    [db] => DB Object
+        (
+            [driver:DB:private] => MySQLii Object
+                (
+                    [affected_rows] => 1
+                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id$
+                    [client_version] => 50011
+                    [connect_errno] => 0
+                    [connect_error] => 
+                    [errno] => 0
+                    [error] => 
+                    [error_list] => Array
+                        (
+                        )
+
+                    [field_count] => 11
+                    [host_info] => 127.0.0.1 via TCP/IP
+                    [info] => 
+                    [insert_id] => 0
+                    [server_info] => 5.5.36
+                    [server_version] => 50536
+                    [stat] => Uptime: 330022  Threads: 5  Questions: 8391644  Slow queries: 0  Opens: 395  Flush tables: 1  Open tables: 240  Queries per second avg: 25.427
+                    [sqlstate] => 00000
+                    [protocol_version] => 10
+                    [thread_id] => 245
+                    [warning_count] => 0
+                )
+
+            [drivername:DB:private] => mysqlii
+            [drivername2:DB:private] => 
+            [driver2:DB:private] => 
+        )
+
+    [request] => Request Object
+        (
+            [get] => Array
+                (
+                    [route] => common/login
+                )
+
+            [post] => Array
+                (
+                    [username] => litao
+                    [password] => 854187817
+                )
+
+            [cookie] => Array
+                (
+                    [PHPSESSID] => a0aef84c1c30ccb4ed9be8ad3a68a699
+                    [language] => cn
+                    [currency] => CNY
+                )
+
+            [files] => Array
+                (
+                )
+
+            [server] => Array
+                (
+                    [HTTP_HOST] => qncjv3
+                    [HTTP_CONNECTION] => keep-alive
+                    [CONTENT_LENGTH] => 248
+                    [HTTP_CACHE_CONTROL] => max-age=0
+                    [HTTP_ORIGIN] => http://qncjv3
+                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+                    [CONTENT_TYPE] => multipart/form-data; boundary=----WebKitFormBoundarykkzivx4ANAqAVbMu
+                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+                    [HTTP_REFERER] => http://qncjv3/admin/
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+                    [HTTP_ACCEPT_LANGUAGE] => zh-CN,zh;q=0.8,en;q=0.6
+                    [HTTP_COOKIE] => PHPSESSID=a0aef84c1c30ccb4ed9be8ad3a68a699; language=cn; currency=CNY
+                    [PATH] => /usr/bin:/bin:/usr/sbin:/sbin
+                    [SERVER_SIGNATURE] => 
+                    [SERVER_SOFTWARE] => Apache/2.4.25 (Unix) PHP/5.6.30
+                    [SERVER_NAME] => qncjv3
+                    [SERVER_ADDR] => 127.0.0.1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => 127.0.0.1
+                    [DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [SERVER_ADMIN] => you@example.com
+                    [SCRIPT_FILENAME] => /Library/WebServer/qncj/webv3/admin/index.php
+                    [REMOTE_PORT] => 53968
+                    [GATEWAY_INTERFACE] => C
+_id:20170908103239.0.37977400.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2017-09-08 10:32:39.,logger:admin,pid:16749,level:INFO,client:127.0.0.1:53968 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20170908103239.0.39024500.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2017-09-08 10:32:39.,logger:admin,pid:16749,level:INFO,client:127.0.0.1:53968 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20170908103239.0.40433700.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2017-09-08 10:32:39.,logger:admin,pid:16749,level:INFO,client:127.0.0.1:53968 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20170908103239.0.43357100.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2017-09-08 10:32:39.,logger:admin,pid:16749,level:INFO,client:127.0.0.1:53968 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20170908103239.0.44163900.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2017-09-08 10:32:39.,logger:admin,pid:16749,level:INFO,client:127.0.0.1:53968 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20170908103239.0.44608200.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2017-09-08 10:32:39.,logger:admin,pid:16749,level:INFO,client:127.0.0.1:53968 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20170908103240.0.89904000.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2017-09-08 10:32:40.,logger:admin,pid:16749,level:INFO,client:127.0.0.1:53968 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20170908103241.0.27112200.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2017-09-08 10:32:41.,logger:admin,pid:16749,level:INFO,client:127.0.0.1:53968 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20170908103241.0.28576400.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2017-09-08 10:32:41.,logger:admin,pid:16749,level:INFO,client:127.0.0.1:53968 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20170908103241.0.29081200.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2017-09-08 10:32:41.,logger:admin,pid:16749,level:INFO,client:127.0.0.1:53968 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20170908103241.0.29732000.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2017-09-08 10:32:41.,logger:admin,pid:16749,level:INFO,client:127.0.0.1:53968 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20170908103241.0.30696300.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2017-09-08 10:32:41.,logger:admin,pid:16749,level:INFO,client:127.0.0.1:53968 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20170908103241.0.31583200.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2017-09-08 10:32:41.,logger:admin,pid:16749,level:INFO,client:127.0.0.1:53968 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20170908103241.0.31932400.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2017-09-08 10:32:41.,logger:admin,pid:16749,level:INFO,client:127.0.0.1:53968 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20170908103312.0.29843500.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2017-09-08 10:33:12.,logger:admin,pid:16109,level:INFO,client:127.0.0.1:53977 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20170908103312.0.30250600.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2017-09-08 10:33:12.,logger:admin,pid:16109,level:INFO,client:127.0.0.1:53977 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20170908103312.0.30899200.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2017-09-08 10:33:12.,logger:admin,pid:16109,level:INFO,client:127.0.0.1:53977 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20170908103312.0.31617200.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2017-09-08 10:33:12.,logger:admin,pid:16109,level:INFO,client:127.0.0.1:53977 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20170908103312.0.32095700.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2017-09-08 10:33:12.,logger:admin,pid:16109,level:INFO,client:127.0.0.1:53977 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20170908103312.0.32454900.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2017-09-08 10:33:12.,logger:admin,pid:16109,level:INFO,client:127.0.0.1:53977 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20170908103312.0.89010300.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2017-09-08 10:33:12.,logger:admin,pid:16109,level:INFO,client:127.0.0.1:53977 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20170908103313.0.06255500.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2017-09-08 10:33:13.,logger:admin,pid:16109,level:INFO,client:127.0.0.1:53977 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20170908103313.0.06891000.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2017-09-08 10:33:13.,logger:admin,pid:16109,level:INFO,client:127.0.0.1:53977 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20170908103313.0.07282000.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2017-09-08 10:33:13.,logger:admin,pid:16109,level:INFO,client:127.0.0.1:53977 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20170908103313.0.07628400.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2017-09-08 10:33:13.,logger:admin,pid:16109,level:INFO,client:127.0.0.1:53977 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20170908103313.0.08164600.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2017-09-08 10:33:13.,logger:admin,pid:16109,level:INFO,client:127.0.0.1:53977 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20170908103313.0.08990100.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2017-09-08 10:33:13.,logger:admin,pid:16109,level:INFO,client:127.0.0.1:53977 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20170908103313.0.09350600.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2017-09-08 10:33:13.,logger:admin,pid:16109,level:INFO,client:127.0.0.1:53977 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20170929092414.0.69862700.1.admin/common/login.ControllerCommonLogin.validate:123..,timestamp:2017-09-29 09:24:14.,logger:admin,pid:4024,level:INFO,client:127.0.0.1:59857 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/login::ControllerCommonLogin.validate:123,message:User Object
+(
+    [user_id:User:private] => 10
+    [username:User:private] => litao
+    [permission:User:private] => Array
+        (
+            [super_admin] => 1
+        )
+
+    [reqcontroller:User:private] => common
+    [user_group_id:User:private] => 1
+    [is_admin:User:private] => 
+    [super_admin:User:private] => 1
+    [db] => DB Object
+        (
+            [driver:DB:private] => MySQLii Object
+                (
+                    [affected_rows] => 1
+                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id$
+                    [client_version] => 50011
+                    [connect_errno] => 0
+                    [connect_error] => 
+                    [errno] => 0
+                    [error] => 
+                    [error_list] => Array
+                        (
+                        )
+
+                    [field_count] => 11
+                    [host_info] => 127.0.0.1 via TCP/IP
+                    [info] => 
+                    [insert_id] => 0
+                    [server_info] => 5.5.36
+                    [server_version] => 50536
+                    [stat] => Uptime: 172439  Threads: 1  Questions: 36302  Slow queries: 0  Opens: 186  Flush tables: 1  Open tables: 152  Queries per second avg: 0.210
+                    [sqlstate] => 00000
+                    [protocol_version] => 10
+                    [thread_id] => 659
+                    [warning_count] => 0
+                )
+
+            [drivername:DB:private] => mysqlii
+            [drivername2:DB:private] => 
+            [driver2:DB:private] => 
+        )
+
+    [request] => Request Object
+        (
+            [get] => Array
+                (
+                    [route] => common/login
+                )
+
+            [post] => Array
+                (
+                    [username] => litao
+                    [password] => 854187817
+                )
+
+            [cookie] => Array
+                (
+                    [Hm_lvt_61f1331aa9214144042cf468daaf9caf] => 1505467420
+                    [language] => cn
+                    [currency] => CNY
+                    [PHPSESSID] => 28cc6634c218944bcecfc3dab94d2dcd
+                )
+
+            [files] => Array
+                (
+                )
+
+            [server] => Array
+                (
+                    [HTTP_HOST] => qncjv3
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0
+                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+                    [HTTP_ACCEPT_LANGUAGE] => zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+                    [CONTENT_TYPE] => multipart/form-data; boundary=---------------------------122313499415163750741527429769
+                    [CONTENT_LENGTH] => 305
+                    [HTTP_REFERER] => http://qncjv3/admin/
+                    [HTTP_COOKIE] => Hm_lvt_61f1331aa9214144042cf468daaf9caf=1505467420; language=cn; currency=CNY; PHPSESSID=28cc6634c218944bcecfc3dab94d2dcd
+                    [HTTP_CONNECTION] => keep-alive
+                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                    [PATH] => /usr/bin:/bin:/usr/sbin:/sbin
+                    [SERVER_SIGNATURE] => 
+                    [SERVER_SOFTWARE] => Apache/2.4.25 (Unix) PHP/5.6.30
+                    [SERVER_NAME] => qncjv3
+                    [SERVER_ADDR] => 127.0.0.1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => 127.0.0.1
+                    [DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [SERVER_ADMIN] => you@example.com
+                    [SCRIPT_FILENAME] => /Library/WebServer/qncj/webv3/admin/index.php
+                    [REMOTE_PORT] => 59857
+                    [GATEWAY_INTERFACE] => CGI/1.1
+   
+_id:20170929092414.0.90967800.1.admin/common/home.ControllerCommonHome.index:7..,timestamp:2017-09-29 09:24:14.,logger:admin,pid:4024,level:INFO,client:127.0.0.1:59857 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:7,message:p
+_id:20170929092414.0.92149600.2.admin/common/home.ControllerCommonHome.index:121..,timestamp:2017-09-29 09:24:14.,logger:admin,pid:4024,level:INFO,client:127.0.0.1:59857 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:121,message:p
+_id:20170929092414.0.93948300.3.admin/common/home.ControllerCommonHome.index:139..,timestamp:2017-09-29 09:24:14.,logger:admin,pid:4024,level:INFO,client:127.0.0.1:59857 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:139,message:p
+_id:20170929092414.0.97091400.4.admin/common/home.ControllerCommonHome.index:141..,timestamp:2017-09-29 09:24:14.,logger:admin,pid:4024,level:INFO,client:127.0.0.1:59857 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:141,message:p
+_id:20170929092414.0.98313700.5.admin/common/home.ControllerCommonHome.index:177..,timestamp:2017-09-29 09:24:14.,logger:admin,pid:4024,level:INFO,client:127.0.0.1:59857 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:177,message:p
+_id:20170929092414.0.98690000.6.admin/common/home.ControllerCommonHome.index:200..,timestamp:2017-09-29 09:24:14.,logger:admin,pid:4024,level:INFO,client:127.0.0.1:59857 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:200,message:p
+_id:20170929092416.0.35535600.7.admin/common/home.ControllerCommonHome.index:203..,timestamp:2017-09-29 09:24:16.,logger:admin,pid:4024,level:INFO,client:127.0.0.1:59857 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:203,message:p
+_id:20170929092416.0.80630700.8.admin/common/home.ControllerCommonHome.index:207..,timestamp:2017-09-29 09:24:16.,logger:admin,pid:4024,level:INFO,client:127.0.0.1:59857 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:207,message:p
+_id:20170929092416.0.82120800.9.admin/common/home.ControllerCommonHome.index:212..,timestamp:2017-09-29 09:24:16.,logger:admin,pid:4024,level:INFO,client:127.0.0.1:59857 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:212,message:p
+_id:20170929092416.0.82502600.10.admin/common/home.ControllerCommonHome.index:219..,timestamp:2017-09-29 09:24:16.,logger:admin,pid:4024,level:INFO,client:127.0.0.1:59857 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:219,message:p
+_id:20170929092416.0.83070900.11.admin/common/home.ControllerCommonHome.index:251..,timestamp:2017-09-29 09:24:16.,logger:admin,pid:4024,level:INFO,client:127.0.0.1:59857 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:251,message:p
+_id:20170929092416.0.84107100.12.admin/common/home.ControllerCommonHome.index:257..,timestamp:2017-09-29 09:24:16.,logger:admin,pid:4024,level:INFO,client:127.0.0.1:59857 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:257,message:p
+_id:20170929092416.0.85102400.13.admin/common/home.ControllerCommonHome.index:390..,timestamp:2017-09-29 09:24:16.,logger:admin,pid:4024,level:INFO,client:127.0.0.1:59857 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:390,message:p
+_id:20170929092416.0.85410900.14.admin/common/home.ControllerCommonHome.index:394..,timestamp:2017-09-29 09:24:16.,logger:admin,pid:4024,level:INFO,client:127.0.0.1:59857 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/home::ControllerCommonHome.index:394,message:p
+_id:20170929140314.0.08616400.1.admin/common/login.ControllerCommonLogin.validate:123..,timestamp:2017-09-29 14:03:14.,logger:admin,pid:4023,level:INFO,client:127.0.0.1:57855 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/login::ControllerCommonLogin.validate:123,message:User Object
+(
+    [user_id:User:private] => 10
+    [username:User:private] => litao
+    [permission:User:private] => Array
+        (
+            [super_admin] => 1
+        )
+
+    [reqcontroller:User:private] => common
+    [user_group_id:User:private] => 1
+    [is_admin:User:private] => 
+    [super_admin:User:private] => 1
+    [db] => DB Object
+        (
+            [driver:DB:private] => MySQLii Object
+                (
+                    [affected_rows] => 1
+                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id$
+                    [client_version] => 50011
+                    [connect_errno] => 0
+                    [connect_error] => 
+                    [errno] => 0
+                    [error] => 
+                    [error_list] => Array
+                        (
+                        )
+
+                    [field_count] => 11
+                    [host_info] => 127.0.0.1 via TCP/IP
+                    [info] => 
+                    [insert_id] => 0
+                    [server_info] => 5.5.36
+                    [server_version] => 50536
+                    [stat] => Uptime: 189179  Threads: 1  Questions: 40821  Slow queries: 0  Opens: 202  Flush tables: 1  Open tables: 168  Queries per second avg: 0.215
+                    [sqlstate] => 00000
+                    [protocol_version] => 10
+                    [thread_id] => 865
+                    [warning_count] => 0
+                )
+
+            [drivername:DB:private] => mysqlii
+            [drivername2:DB:private] => 
+            [driver2:DB:private] => 
+        )
+
+    [request] => Request Object
+        (
+            [get] => Array
+                (
+                    [route] => common/login
+                )
+
+            [post] => Array
+                (
+                    [username] => litao
+                    [password] => 854187817
+                    [redirect] => http://qncjv3/admin/index.php?route=sale/group/group_info_list&amp;gid=56
+                )
+
+            [cookie] => Array
+                (
+                    [Hm_lvt_61f1331aa9214144042cf468daaf9caf] => 1505467420
+                    [language] => cn
+                    [currency] => CNY
+                    [PHPSESSID] => 28cc6634c218944bcecfc3dab94d2dcd
+                )
+
+            [files] => Array
+                (
+                )
+
+            [server] => Array
+                (
+                    [HTTP_HOST] => qncjv3
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0
+                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+                    [HTTP_ACCEPT_LANGUAGE] => zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+                    [CONTENT_TYPE] => multipart/form-data; boundary=---------------------------63681401802630277107773663
+                    [CONTENT_LENGTH] => 472
+                    [HTTP_REFERER] => http://qncjv3/admin/index.php?route=sale/group/group_info_list&amp;token=f5db3941f3572d2a9236cd2e879c2507&amp;gid=56
+                    [HTTP_COOKIE] => Hm_lvt_61f1331aa9214144042cf468daaf9caf=1505467420; language=cn; currency=CNY; PHPSESSID=28cc6634c218944bcecfc3dab94d2dcd
+                    [HTTP_CONNECTION] => keep-alive
+                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                    [PATH] => /usr/bin:/bin:/usr/sbin:/sbin
+                    [SERVER_SIGNATURE] => 
+                    [SERVER_SOFTWARE] => Apache/2.4.25 (Unix) PHP/5.6.30
+                    [SERVER_NAME] => qncjv3
+                    [SERVER_ADDR] => 127.0.0.1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => 127.0.0.1
+                    [DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [SERVER_ADMIN] => 
+_id:20170929150748.0.85101000.1.admin/common/login.ControllerCommonLogin.validate:123..,timestamp:2017-09-29 15:07:48.,logger:admin,pid:4028,level:INFO,client:127.0.0.1:65083 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0,server:qncjv3(127.0.0.1):80,user_id:10,method:admin/common/login::ControllerCommonLogin.validate:123,message:User Object
+(
+    [user_id:User:private] => 10
+    [username:User:private] => litao
+    [permission:User:private] => Array
+        (
+            [super_admin] => 1
+        )
+
+    [reqcontroller:User:private] => common
+    [user_group_id:User:private] => 1
+    [is_admin:User:private] => 
+    [super_admin:User:private] => 1
+    [db] => DB Object
+        (
+            [driver:DB:private] => MySQLii Object
+                (
+                    [affected_rows] => 1
+                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id$
+                    [client_version] => 50011
+                    [connect_errno] => 0
+                    [connect_error] => 
+                    [errno] => 0
+                    [error] => 
+                    [error_list] => Array
+                        (
+                        )
+
+                    [field_count] => 11
+                    [host_info] => 127.0.0.1 via TCP/IP
+                    [info] => 
+                    [insert_id] => 0
+                    [server_info] => 5.5.36
+                    [server_version] => 50536
+                    [stat] => Uptime: 193053  Threads: 1  Questions: 44168  Slow queries: 0  Opens: 211  Flush tables: 1  Open tables: 177  Queries per second avg: 0.228
+                    [sqlstate] => 00000
+                    [protocol_version] => 10
+                    [thread_id] => 978
+                    [warning_count] => 0
+                )
+
+            [drivername:DB:private] => mysqlii
+            [drivername2:DB:private] => 
+            [driver2:DB:private] => 
+        )
+
+    [request] => Request Object
+        (
+            [get] => Array
+                (
+                    [route] => common/login
+                )
+
+            [post] => Array
+                (
+                    [username] => litao
+                    [password] => 854187817
+                    [redirect] => http://qncjv3/admin/index.php?route=sale/group&amp;gid=56
+                )
+
+            [cookie] => Array
+                (
+                    [Hm_lvt_61f1331aa9214144042cf468daaf9caf] => 1505467420
+                    [language] => cn
+                    [currency] => CNY
+                    [PHPSESSID] => 28cc6634c218944bcecfc3dab94d2dcd
+                )
+
+            [files] => Array
+                (
+                )
+
+            [server] => Array
+                (
+                    [HTTP_HOST] => qncjv3
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0
+                    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+                    [HTTP_ACCEPT_LANGUAGE] => zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+                    [CONTENT_TYPE] => multipart/form-data; boundary=---------------------------76290200816166758661508178018
+                    [CONTENT_LENGTH] => 468
+                    [HTTP_REFERER] => http://qncjv3/admin/index.php?route=sale/group&amp;token=a03debc09a5c3055ea4244b6db7916f8&amp;gid=56
+                    [HTTP_COOKIE] => Hm_lvt_61f1331aa9214144042cf468daaf9caf=1505467420; language=cn; currency=CNY; PHPSESSID=28cc6634c218944bcecfc3dab94d2dcd
+                    [HTTP_CONNECTION] => keep-alive
+                    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+                    [PATH] => /usr/bin:/bin:/usr/sbin:/sbin
+                    [SERVER_SIGNATURE] => 
+                    [SERVER_SOFTWARE] => Apache/2.4.25 (Unix) PHP/5.6.30
+                    [SERVER_NAME] => qncjv3
+                    [SERVER_ADDR] => 127.0.0.1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => 127.0.0.1
+                    [DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => /Library/WebServer/qncj/webv3
+                    [SERVER_ADMIN] => you@example.com
+             

@@ -1,0 +1,390 @@
+_id:20161027172752.0.48262900.1.apiv3/lbs/shipping/getAllowarea.ServiceShippingMeishisongShipping.hsetMssRegion:104..,timestamp:2016-10-27 17:27:52.,logger:root,pid:1382,level:INFO,client:127.0.0.1:55215 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0,server:qncjv3(127.0.0.1):80,user_id:,method:apiv3/lbs/shipping/getAllowarea::ServiceShippingMeishisongShipping.hsetMssRegion:104,message:Array
+(
+    [state] => -1
+    [message] => 该接口已停用,请联系美食送技术人员
+)
+
+_id:20161027172752.0.48543100.2.apiv3/lbs/shipping/getAllowarea.ServiceShippingMeishisongShipping.__construct:23..,timestamp:2016-10-27 17:27:52.,logger:root,pid:1382,level:WARN,client:127.0.0.1:55215 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0,server:qncjv3(127.0.0.1):80,user_id:,method:apiv3/lbs/shipping/getAllowarea::ServiceShippingMeishisongShipping.__construct:23,message:hsetMssRegion:empty
+_id:20161027172752.0.48734600.3.apiv3/lbs/shipping/getAllowarea.ServiceShippingMeishisongShipping.setAllowarea:45..,timestamp:2016-10-27 17:27:52.,logger:root,pid:1382,level:INFO,client:127.0.0.1:55215 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0,server:qncjv3(127.0.0.1):80,user_id:,method:apiv3/lbs/shipping/getAllowarea::ServiceShippingMeishisongShipping.setAllowarea:45,message:Array
+(
+    [北京市] => Array
+        (
+            [0] => 垡头
+            [1] => 劲松
+            [2] => 双井
+            [3] => 崇文门
+            [4] => 鼓楼区域
+            [5] => 东单
+            [6] => 青年路
+            [7] => 管庄南
+            [8] => 常营
+            [9] => 通州
+            [10] => 通州北
+            [11] => 通州南
+            [12] => 酒仙桥
+            [13] => 望京
+            [14] => 亚运村
+            [15] => 安贞
+            [16] => 三元桥
+            [17] => 霄云路
+            [18] => 和平里
+            [19] => 团结湖
+            [20] => 国贸
+            [21] => 百子湾
+            [22] => 北苑
+            [23] => 天通苑
+            [24] => 西二旗
+            [25] => 西三旗
+            [26] => 回龙观
+            [27] => 清河
+            [28] => 北太平庄
+            [29] => 奥体
+            [30] => 木樨园
+            [31] => 方庄
+            [32] => 草桥
+            [33] => 白纸坊
+            [34] => 广安门外
+            [35] => 金融街
+            [36] => 西直门
+            [37] => 魏公村
+            [38] => 五道口
+            [39] => 亦庄
+            [40] => 丰台科技园
+            [41] => 六里桥
+            [42] => 青塔
+            [43] => 航天桥
+            [44] => 石景山
+            [45] => 石景山南
+            [46] => 四季青
+            [47] => 万柳
+            [48] => 中关村
+            [49] => 圆明园
+        )
+
+)
+
+_id:20161212102703.0.87109400.1.apiv3/lbs/shipping/getAllowarea.ServiceShippingMeishisongShipping.hsetMssRegion:104..,timestamp:2016-12-12 10:27:03.,logger:root,pid:31036,level:INFO,client:127.0.0.1:55253 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:,method:apiv3/lbs/shipping/getAllowarea::ServiceShippingMeishisongShipping.hsetMssRegion:104,message:Array
+(
+    [state] => -1
+    [message] => 该接口已停用,请联系美食送技术人员
+)
+
+_id:20161212102703.0.87294600.2.apiv3/lbs/shipping/getAllowarea.ServiceShippingMeishisongShipping.__construct:23..,timestamp:2016-12-12 10:27:03.,logger:root,pid:31036,level:WARN,client:127.0.0.1:55253 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:,method:apiv3/lbs/shipping/getAllowarea::ServiceShippingMeishisongShipping.__construct:23,message:hsetMssRegion:empty
+_id:20161212102703.0.87566900.3.apiv3/lbs/shipping/getAllowarea.ServiceShippingMeishisongShipping.setAllowarea:45..,timestamp:2016-12-12 10:27:03.,logger:root,pid:31036,level:INFO,client:127.0.0.1:55253 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:,method:apiv3/lbs/shipping/getAllowarea::ServiceShippingMeishisongShipping.setAllowarea:45,message:Array
+(
+    [北京市] => Array
+        (
+            [0] => 垡头
+            [1] => 劲松
+            [2] => 双井
+            [3] => 崇文门
+            [4] => 鼓楼区域
+            [5] => 东单
+            [6] => 青年路
+            [7] => 管庄南
+            [8] => 常营
+            [9] => 通州
+            [10] => 通州北
+            [11] => 通州南
+            [12] => 酒仙桥
+            [13] => 望京
+            [14] => 亚运村
+            [15] => 安贞
+            [16] => 三元桥
+            [17] => 霄云路
+            [18] => 和平里
+            [19] => 团结湖
+            [20] => 国贸
+            [21] => 百子湾
+            [22] => 北苑
+            [23] => 天通苑
+            [24] => 西二旗
+            [25] => 西三旗
+            [26] => 回龙观
+            [27] => 清河
+            [28] => 北太平庄
+            [29] => 奥体
+            [30] => 木樨园
+            [31] => 方庄
+            [32] => 草桥
+            [33] => 白纸坊
+            [34] => 广安门外
+            [35] => 金融街
+            [36] => 西直门
+            [37] => 魏公村
+            [38] => 五道口
+            [39] => 亦庄
+            [40] => 丰台科技园
+            [41] => 六里桥
+            [42] => 青塔
+            [43] => 航天桥
+            [44] => 石景山
+            [45] => 石景山南
+            [46] => 四季青
+            [47] => 万柳
+            [48] => 中关村
+            [49] => 圆明园
+        )
+
+)
+
+_id:20161212102708.0.49138500.1.apiv3/lbs/shipping/hgetByLng.ServiceShippingMeishisongShipping.hsetMssRegion:104..,timestamp:2016-12-12 10:27:08.,logger:root,pid:31036,level:INFO,client:127.0.0.1:55253 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:,method:apiv3/lbs/shipping/hgetByLng::ServiceShippingMeishisongShipping.hsetMssRegion:104,message:Array
+(
+    [state] => -1
+    [message] => 该接口已停用,请联系美食送技术人员
+)
+
+_id:20161212102708.0.49788000.2.apiv3/lbs/shipping/hgetByLng.ServiceShippingMeishisongShipping.__construct:23..,timestamp:2016-12-12 10:27:08.,logger:root,pid:31036,level:WARN,client:127.0.0.1:55253 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:,method:apiv3/lbs/shipping/hgetByLng::ServiceShippingMeishisongShipping.__construct:23,message:hsetMssRegion:empty
+_id:20161212102708.0.53423300.3.apiv3/lbs/shipping/hgetByLng.ServiceShippingMeishisongShipping.setAllowarea:45..,timestamp:2016-12-12 10:27:08.,logger:root,pid:31036,level:INFO,client:127.0.0.1:55253 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:,method:apiv3/lbs/shipping/hgetByLng::ServiceShippingMeishisongShipping.setAllowarea:45,message:Array
+(
+    [北京市] => Array
+        (
+            [0] => 垡头
+            [1] => 劲松
+            [2] => 双井
+            [3] => 崇文门
+            [4] => 鼓楼区域
+            [5] => 东单
+            [6] => 青年路
+            [7] => 管庄南
+            [8] => 常营
+            [9] => 通州
+            [10] => 通州北
+            [11] => 通州南
+            [12] => 酒仙桥
+            [13] => 望京
+            [14] => 亚运村
+            [15] => 安贞
+            [16] => 三元桥
+            [17] => 霄云路
+            [18] => 和平里
+            [19] => 团结湖
+            [20] => 国贸
+            [21] => 百子湾
+            [22] => 北苑
+            [23] => 天通苑
+            [24] => 西二旗
+            [25] => 西三旗
+            [26] => 回龙观
+            [27] => 清河
+            [28] => 北太平庄
+            [29] => 奥体
+            [30] => 木樨园
+            [31] => 方庄
+            [32] => 草桥
+            [33] => 白纸坊
+            [34] => 广安门外
+            [35] => 金融街
+            [36] => 西直门
+            [37] => 魏公村
+            [38] => 五道口
+            [39] => 亦庄
+            [40] => 丰台科技园
+            [41] => 六里桥
+            [42] => 青塔
+            [43] => 航天桥
+            [44] => 石景山
+            [45] => 石景山南
+            [46] => 四季青
+            [47] => 万柳
+            [48] => 中关村
+            [49] => 圆明园
+        )
+
+)
+
+_id:20161212102722.0.19778000.1.apiv3/lbs/shipping/hgetByLng.ServiceShippingMeishisongShipping.hsetMssRegion:104..,timestamp:2016-12-12 10:27:22.,logger:root,pid:21056,level:INFO,client:127.0.0.1:55275 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:,method:apiv3/lbs/shipping/hgetByLng::ServiceShippingMeishisongShipping.hsetMssRegion:104,message:Array
+(
+    [state] => -1
+    [message] => 该接口已停用,请联系美食送技术人员
+)
+
+_id:20161212102722.0.20540200.2.apiv3/lbs/shipping/hgetByLng.ServiceShippingMeishisongShipping.__construct:23..,timestamp:2016-12-12 10:27:22.,logger:root,pid:21056,level:WARN,client:127.0.0.1:55275 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:,method:apiv3/lbs/shipping/hgetByLng::ServiceShippingMeishisongShipping.__construct:23,message:hsetMssRegion:empty
+_id:20161212102722.0.22232100.3.apiv3/lbs/shipping/hgetByLng.ServiceShippingMeishisongShipping.setAllowarea:45..,timestamp:2016-12-12 10:27:22.,logger:root,pid:21056,level:INFO,client:127.0.0.1:55275 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0,server:qncjv3(127.0.0.1):80,user_id:,method:apiv3/lbs/shipping/hgetByLng::ServiceShippingMeishisongShipping.setAllowarea:45,message:Array
+(
+    [北京市] => Array
+        (
+            [0] => 垡头
+            [1] => 劲松
+            [2] => 双井
+            [3] => 崇文门
+            [4] => 鼓楼区域
+            [5] => 东单
+            [6] => 青年路
+            [7] => 管庄南
+            [8] => 常营
+            [9] => 通州
+            [10] => 通州北
+            [11] => 通州南
+            [12] => 酒仙桥
+            [13] => 望京
+            [14] => 亚运村
+            [15] => 安贞
+            [16] => 三元桥
+            [17] => 霄云路
+            [18] => 和平里
+            [19] => 团结湖
+            [20] => 国贸
+            [21] => 百子湾
+            [22] => 北苑
+            [23] => 天通苑
+            [24] => 西二旗
+            [25] => 西三旗
+            [26] => 回龙观
+            [27] => 清河
+            [28] => 北太平庄
+            [29] => 奥体
+            [30] => 木樨园
+            [31] => 方庄
+            [32] => 草桥
+            [33] => 白纸坊
+            [34] => 广安门外
+            [35] => 金融街
+            [36] => 西直门
+            [37] => 魏公村
+            [38] => 五道口
+            [39] => 亦庄
+            [40] => 丰台科技园
+            [41] => 六里桥
+            [42] => 青塔
+            [43] => 航天桥
+            [44] => 石景山
+            [45] => 石景山南
+            [46] => 四季青
+            [47] => 万柳
+            [48] => 中关村
+            [49] => 圆明园
+        )
+
+)
+
+_id:20170524151557.0.49499200.1.apiv3/lbs/shipping/getAllowarea.ServiceShippingMeishisongShipping.hsetMssRegion:104..,timestamp:2017-05-24 15:15:57.,logger:root,pid:2510,level:INFO,client:127.0.0.1:57459 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:53.0) Gecko/20100101 Firefox/53.0,server:qncjv3(127.0.0.1):80,user_id:,method:apiv3/lbs/shipping/getAllowarea::ServiceShippingMeishisongShipping.hsetMssRegion:104,message:Array
+(
+    [state] => -1
+    [message] => 该接口已停用,请联系美食送技术人员
+)
+
+_id:20170524151557.0.50332900.2.apiv3/lbs/shipping/getAllowarea.ServiceShippingMeishisongShipping.__construct:23..,timestamp:2017-05-24 15:15:57.,logger:root,pid:2510,level:WARN,client:127.0.0.1:57459 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:53.0) Gecko/20100101 Firefox/53.0,server:qncjv3(127.0.0.1):80,user_id:,method:apiv3/lbs/shipping/getAllowarea::ServiceShippingMeishisongShipping.__construct:23,message:hsetMssRegion:empty
+_id:20170524151557.0.50850600.3.apiv3/lbs/shipping/getAllowarea.ServiceShippingMeishisongShipping.setAllowarea:45..,timestamp:2017-05-24 15:15:57.,logger:root,pid:2510,level:INFO,client:127.0.0.1:57459 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:53.0) Gecko/20100101 Firefox/53.0,server:qncjv3(127.0.0.1):80,user_id:,method:apiv3/lbs/shipping/getAllowarea::ServiceShippingMeishisongShipping.setAllowarea:45,message:Array
+(
+    [北京市] => Array
+        (
+            [0] => 垡头
+            [1] => 劲松
+            [2] => 双井
+            [3] => 崇文门
+            [4] => 鼓楼区域
+            [5] => 东单
+            [6] => 青年路
+            [7] => 管庄南
+            [8] => 常营
+            [9] => 通州
+            [10] => 通州北
+            [11] => 通州南
+            [12] => 酒仙桥
+            [13] => 望京
+            [14] => 亚运村
+            [15] => 安贞
+            [16] => 三元桥
+            [17] => 霄云路
+            [18] => 和平里
+            [19] => 团结湖
+            [20] => 国贸
+            [21] => 百子湾
+            [22] => 北苑
+            [23] => 天通苑
+            [24] => 西二旗
+            [25] => 西三旗
+            [26] => 回龙观
+            [27] => 清河
+            [28] => 北太平庄
+            [29] => 奥体
+            [30] => 木樨园
+            [31] => 方庄
+            [32] => 草桥
+            [33] => 白纸坊
+            [34] => 广安门外
+            [35] => 金融街
+            [36] => 西直门
+            [37] => 魏公村
+            [38] => 五道口
+            [39] => 亦庄
+            [40] => 丰台科技园
+            [41] => 六里桥
+            [42] => 青塔
+            [43] => 航天桥
+            [44] => 石景山
+            [45] => 石景山南
+            [46] => 四季青
+            [47] => 万柳
+            [48] => 中关村
+            [49] => 圆明园
+        )
+
+)
+
+_id:20170524151607.0.57868300.1.apiv3/lbs/shipping/hgetByLng.ServiceShippingMeishisongShipping.hsetMssRegion:104..,timestamp:2017-05-24 15:16:07.,logger:root,pid:1927,level:INFO,client:127.0.0.1:57497 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:53.0) Gecko/20100101 Firefox/53.0,server:qncjv3(127.0.0.1):80,user_id:,method:apiv3/lbs/shipping/hgetByLng::ServiceShippingMeishisongShipping.hsetMssRegion:104,message:Array
+(
+    [state] => -1
+    [message] => 该接口已停用,请联系美食送技术人员
+)
+
+_id:20170524151607.0.58506000.2.apiv3/lbs/shipping/hgetByLng.ServiceShippingMeishisongShipping.__construct:23..,timestamp:2017-05-24 15:16:07.,logger:root,pid:1927,level:WARN,client:127.0.0.1:57497 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:53.0) Gecko/20100101 Firefox/53.0,server:qncjv3(127.0.0.1):80,user_id:,method:apiv3/lbs/shipping/hgetByLng::ServiceShippingMeishisongShipping.__construct:23,message:hsetMssRegion:empty
+_id:20170524151607.0.59270900.3.apiv3/lbs/shipping/hgetByLng.ServiceShippingMeishisongShipping.setAllowarea:45..,timestamp:2017-05-24 15:16:07.,logger:root,pid:1927,level:INFO,client:127.0.0.1:57497 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:53.0) Gecko/20100101 Firefox/53.0,server:qncjv3(127.0.0.1):80,user_id:,method:apiv3/lbs/shipping/hgetByLng::ServiceShippingMeishisongShipping.setAllowarea:45,message:Array
+(
+    [北京市] => Array
+        (
+            [0] => 垡头
+            [1] => 劲松
+            [2] => 双井
+            [3] => 崇文门
+            [4] => 鼓楼区域
+            [5] => 东单
+            [6] => 青年路
+            [7] => 管庄南
+            [8] => 常营
+            [9] => 通州
+            [10] => 通州北
+            [11] => 通州南
+            [12] => 酒仙桥
+            [13] => 望京
+            [14] => 亚运村
+            [15] => 安贞
+            [16] => 三元桥
+            [17] => 霄云路
+            [18] => 和平里
+            [19] => 团结湖
+            [20] => 国贸
+            [21] => 百子湾
+            [22] => 北苑
+            [23] => 天通苑
+            [24] => 西二旗
+            [25] => 西三旗
+            [26] => 回龙观
+            [27] => 清河
+            [28] => 北太平庄
+            [29] => 奥体
+            [30] => 木樨园
+            [31] => 方庄
+            [32] => 草桥
+            [33] => 白纸坊
+            [34] => 广安门外
+            [35] => 金融街
+            [36] => 西直门
+            [37] => 魏公村
+            [38] => 五道口
+            [39] => 亦庄
+            [40] => 丰台科技园
+            [41] => 六里桥
+            [42] => 青塔
+            [43] => 航天桥
+            [44] => 石景山
+            [45] => 石景山南
+            [46] => 四季青
+            [47] => 万柳
+            [48] => 中关村
+            [49] => 圆明园
+        )
+
+)
+
